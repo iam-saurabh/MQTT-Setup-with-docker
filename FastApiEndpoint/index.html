@@ -1,0 +1,779 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Exalens Coding Challenge</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="f332b8a5-4be3-4094-bcdb-ac0bbd796424" class="page sans"><header><h1 class="page-title">Exalens Coding Challenge</h1><p class="page-description"></p></header><div class="page-body"><p id="1b7a60c4-031e-48a5-aec4-4119f033e4dc" class=""><strong>Challenge Overview:</strong></p><ul id="a5a66940-4dbd-445d-b920-7dcac771b082" class="bulleted-list"><li style="list-style-type:disc"><strong>Purpose</strong>: Simulate the behaviour of sensors, monitor their readings, and provide APIs to retrieve data based on specific criteria.</li></ul><ol type="1" id="554e019a-5130-468e-b0b3-d6fedffd62f0" class="numbered-list" start="1"><li><strong>MQTT Broker Setup</strong>: Deploy a Mosquitto MQTT broker using Docker.</li></ol><ol type="1" id="d4d907bb-5204-4971-a97c-d1145816e551" class="numbered-list" start="2"><li><strong>MQTT Publisher</strong>: Create a Python MQTT client to mimic multiple sensor readings, publishing to topics like sensors/temperature and sensors/humidity.<ol type="a" id="c537e6d7-624a-4aab-ac11-43b8c58dfe65" class="numbered-list" start="1"><li><p id="755d51dc-8d5a-44ce-a8d9-ee95cc55771e" class="">Structure of the JSON payload</p><ul id="b4e614e5-d788-4e95-a3d0-759979274055" class="bulleted-list"><li style="list-style-type:disc"><code>{ &quot;sensor_id&quot;: &quot;unique_sensor_id&quot;, &quot;value&quot;: &quot;&lt;reading_value&gt;&quot;, &quot;timestamp&quot;: &quot;ISO8601_formatted_date_time&quot; }</code>:</li></ul></li></ol></li></ol><ol type="1" id="6d2f46aa-9390-485f-b52c-5cf2e4d811f1" class="numbered-list" start="3"><li><strong>MQTT Subscriber</strong>: Construct a Python MQTT subscriber to store the received messages in a MongoDB collection.</li></ol><ol type="1" id="a7cfc0bd-4a20-4ae2-bd3b-7f05ccb2edb9" class="numbered-list" start="4"><li><strong>Data Storage</strong>: Initiate a MongoDB instance using Docker and save the incoming MQTT messages.</li></ol><ol type="1" id="3c91f009-f923-4200-bd05-df31c1751962" class="numbered-list" start="5"><li><strong>In-Memory Data Management</strong>: Implement Redis using Docker to store the latest ten sensor readings.</li></ol><ol type="1" id="d2217c71-4a94-43fb-a5fd-9e367500cd7b" class="numbered-list" start="6"><li><strong>FastAPI Endpoint</strong>: Design an API with the following endpoints:<ul id="ab6055de-f818-4aa6-9bef-e27986ec63f8" class="bulleted-list"><li style="list-style-type:disc">An endpoint that allows users to fetch sensor readings by specifying a start and end range.</li></ul><ul id="b2eb6ab4-a740-46ba-ad52-f3a9d9ece073" class="bulleted-list"><li style="list-style-type:disc">An endpoint to retrieve the last ten sensor readings for a specific sensor.</li></ul></li></ol><ol type="1" id="e9452f67-20ac-4bc1-8dcd-51ab10400cf9" class="numbered-list" start="7"><li><strong>Docker Integration</strong>: Integrate all services using Docker Compose.</li></ol><h2 id="87039fb9-629a-4534-976f-c3b323fcd60b" class="">Setup for Debian-Linux</h2><p id="9ec9c534-4747-47d6-b818-05afc18d864a" class="">Install docker and docker compose plugins.</p><pre id="da3f577b-a934-47a0-a526-f40f41d5fd37" class="code"><code>#apt list update
+$ sudo apt-get update
+# Install Docker 
+$ sudo apt-get install docker.io
+# Install Docker Compose
+$ sudo apt-get install docker-compose-plugin
+# check installation
+$ docker compose version
+</code></pre><h2 id="dc71a6e2-0135-4ad2-8111-0884a15be84c" class="">Quick Giude</h2><pre id="7e63962b-8037-412d-93f0-419f49620941" class="code code-wrap"><code>docker compose up
+
+# Endpoints
+0.0.0.0/ # Implementation documentation.
+/startoenddate # range of dates
+/latestten # latest ten entry
+/latestten/{sensor_id} #latest ten entry by sensor_id
+0.0.0.0/docs #can be used for endpoint testing.</code></pre><h2 id="d08e8d33-168d-4905-83af-14be9a576109" class="">MQTT Publisher</h2><p id="6f732132-10fb-49bd-b8a1-d1869244987d" class="">Using ‘paho.mqtt’ python library to connect to the ‘mqtt-broker’ and publish the desired payload</p><p id="2c00c81d-caae-42c1-825d-5b6bba218b69" class="">Two sensors are emulated ‘humidity_sensor’ and ‘temperature_sensor ’, the python script keeps running until a keyboard interrupt is detected, with the help of the docker file build container which works as a publisher for a broker.</p><div id="ca6549fa-f9a2-47e1-8b0a-70a525f3ee56" class="column-list"><div id="f20a24b9-57ca-46f7-a817-5b9efe975273" style="width:50%" class="column"><pre id="3b363505-5540-4131-b0ed-041315c3ef2e" class="code"><code>#Dockerfile for publisher
+FROM python:3.8-alpine
+WORKDIR /code
+COPY MQTTPublisher/publisher.py .
+COPY MQTTPublisher/requirement.txt .
+RUN pip install -r requirement.txt
+CMD [&quot;python&quot;,&quot;publisher.py&quot;]</code></pre></div><div id="9da9ba24-2956-4fc2-a9b5-799d7a4dd081" style="width:50%" class="column"><pre id="f33df87d-5f4c-40b7-81cf-aa5de48f0ec2" class="code code-wrap"><code># docker-compose.yml
+version: &#x27;3.9&#x27;
+services:
+  publisher:
+    build:
+      context: .
+      dockerfile: DockerFiles/publisher.Dockerfile
+    container_name: mqtt_publisher
+    tty: true
+    restart: unless-stopped</code></pre></div></div><p id="7804a078-0a73-419e-8cf3-7f1de500fab2" class="">python:3.8-alpine from docker-hub is a small image good for a single task with fewer requirements.</p><h2 id="345ab3aa-ffeb-462e-9889-349644d1ea86" class="">MQTT Broker</h2><p id="8619f2a4-e34d-46b8-9e7d-ca13c0de7da5" class="">Using docker official image ‘eclipse-mosquitto’ at default port 1883 is mapped with port 1883 of localhost.</p><p id="610d8bb6-babb-440e-ad67-a8a39eed6de7" class="">volumes for config and logs are created and configured in the docker-compose.yml file</p><p id="a8b5d689-6a85-480c-857c-d380f193615b" class="">Note: To connect within the docker network container name can be used </p><pre id="ff404009-50ec-4535-9eab-f9a647fddebc" class="code"><code>#example 
+broker_address = &quot;mqtt_broker&quot;  # Instead of any IP or localhost containr name is used.
+broker_port = 1883</code></pre><pre id="b3b61df4-eb38-4e67-b5e5-0c0aeef26bfb" class="code"><code>#compose file
+mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt_broker
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./config:/mosquitto/config # local path and container path 
+      - ./log:/mosquitto/log
+    ports:
+      - 1883:1883 # local port to container port</code></pre><h2 id="b2e66997-49c3-45b6-b638-ab5ff3ed8314" class="">MQTT Subscriber / DataBase</h2><p id="b26582c9-c6bc-464b-bcf0-ee05e88b8159" class="">Like in the publisher case we Use ‘paho.mqtt’ python library to connect to the ‘mqtt-broker’ and subscribe to the desired topic</p><p id="76643ff4-bca0-4d00-9ccb-e945d8ce4921" class="">Two topics are subscribed ‘humidity_sensor’ and ‘temperature_sensor ’, the python script keeps running until a keyboard interrupt is detected, with the help of the docker file build container which works as a subscriber for the broker.</p><p id="f938ddf9-8d97-4313-9623-1a0143fbb3d4" class="">The subscriber in this case also stores the received message into the MongoDB which is running in a container that is created by using docker official image Mongo, deployed at the default port, here we can also pass the container name for docker intra-net connections.</p><div id="3b91c232-9c71-4afe-9191-e7e7c0855a86" class="column-list"><div id="f7c2fbe8-270a-40ab-8c0d-b1e9293dae75" style="width:50%" class="column"><pre id="6f96eb81-3771-4d72-b27c-ce5dc8d5af84" class="code"><code># example to connect to MOngoDB
+uri = &quot;mongodb://mongodb:27017/&quot;
+db_name = &quot;sensor_data&quot;
+collection_name = &quot;sensor_readings&quot;</code></pre></div><div id="d6caf2ed-0cbc-4648-99ad-cc4d206e8df5" style="width:50%" class="column"><pre id="9ec8b6bc-42d6-4dff-b53e-b38e01cb8d72" class="code code-wrap"><code># Docker compose file for subscriber and DB
+subscriber:
+    build:
+      context: .
+      dockerfile: DockerFiles/subscriber.Dockerfile
+    container_name: mqtt_subscriber
+    tty: true
+    restart: unless-stopped   
+  db:
+    image:  mongo
+    container_name: mongodb
+    tty: true
+    restart: unless-stopped 
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/data/db</code></pre><p id="a8986b84-a3e8-4ac9-9cf8-5c58b5111c7d" class="">
+</p></div></div><p id="e62a762e-f93a-4a0d-ae5e-4a0e0ca092ae" class="">To make data persistent i.e. data cannot be deleted after removal of the container then /data/db of the container is connected with ./data on a local machine by using volumes. </p><h2 id="187863c6-da5c-496b-9f43-b0b279e617f8" class="">FastAPI / Redis</h2><p id="255a1e0c-177a-45fe-858f-a4a920210e30" class="">Endpoints created and are cached using the Redis server which is deployed as container by using the docker official image  ‘redis’</p><p id="9ba174cd-a997-4d84-a261-133b6fc498c2" class="">FastAPI is running on uvicorn server on port 8000 but to showcase how we can map the port of the container to any available port of the local network.</p><p id="f53634ea-108c-44e3-a647-5162a7cd64e5" class=""> </p><pre id="06ee2c83-24da-41de-97fe-076b60397719" class="code code-wrap"><code># Docker composer for redis and FastAPI
+fastapi:
+    build:
+      context: .
+      dockerfile: DockerFiles/fastapi.Dockerfile
+    container_name: fastapi
+    tty: true
+    restart: unless-stopped
+    ports:
+      - 80:8000   # port 8000 of the container is forwarded at port 80 of localhost
+  redis:
+    image: redis
+    tty: true
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - 6379:6379</code></pre><pre id="49cc1842-a7d8-45dd-b3a2-a7723a46c6bc" class="code code-wrap"><code># Endpoints
+/starttoenddate  #&quot;http://0.0.0.0/starttoenddate&quot; can be querryied by putting startdate
+
+# and enddate 
+#exmple  &quot;http://0.0.0.0/startoenddate?startDate=2023-08-25T22%3A25%3A02.819517&amp;endDate=2023-08-25T23%3A53%3A33.850691&quot;
+
+/latestten # This endpoint gives the latest ten readings from all the sensors, this endpoint is cached with Redis server, and the key expiry time is set to 10 sec.
+
+/latestten/{sensor_id} # a string containing sensor_id is passed to the latest ten entries of a specific sensor, this endpoint is also cached with Redis.
+
+/allData # fetches all data stored in DB and is also cashed with redis with an expiry of 30 sec.
+ 0.0.0.0/ # Implementation documentation.
+
+0.0.0.0/docs #can be used for endpoint testing.</code></pre><h2 id="c70c30e8-8bf2-44fb-a136-f06031a8a6a8" class="">Some Important Commands</h2><pre id="28130dd7-6fb6-4860-82fb-ce459f9acdcb" class="code code-wrap"><code>docker compose up # in same directory as docker-compose.yml
+# you can start a specific service by using its name in compose file
+docker compose up db # it will only start or build only DB
+ctrl+c # used for stopping running containers 
+docker compose down  # stop and remove containers
+docker compose build # to rebuild or build container after change.
+docker rm $(docker ps -aq) # removing all containers
+docker image rm $(docker images) # removing all Images
+
+</code></pre><h2 id="63a4335a-4a4a-4bb2-9203-8dac9a34bb60" class="">Challenges Faced</h2><p id="020d07ad-564c-48b2-9d57-5015575fda35" class="">During the occurrence of any error in containers, they tend to just exit and I have to start them again like when the MQTT-Broker container was not started and the other containers that were dependent upon it just gave that it couldn&#x27;t connect to the broker exit after adding ‘restart: ’ it helped and restarts the container.</p><p id="c634de72-79f4-4edb-8d87-e0a529d1cd41" class="">Not able to look at the error log at the terminal itself then tty: True helped a lot it kept the terminal running container and kept popping their messages.</p><p id="799bb79c-289b-470e-a59e-4022b21a942a" class="">During Mosquitto config it gave some error because of not using volumes correctly but after some time it sorted out.</p><p id="08950b92-44f4-4600-9c77-40da7ac79499" class="">
+</p><p id="ba2e9e43-0416-4513-9c9d-d2136bbe4f96" class="">
+</p><p id="753f5cbc-a782-4320-bcda-edab105b2585" class="">
+</p></div></article></body></html>

@@ -1,0 +1,51 @@
+version: '3.9'
+services:
+  publisher:
+    build:
+      context: .
+      dockerfile: DockerFiles/publisher.Dockerfile
+    container_name: mqtt_publisher
+    tty: true
+    restart: unless-stopped
+  mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt_broker
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./config:/mosquitto/config
+      - ./log:/mosquitto/log
+    ports:
+      - 1883:1883
+  subscriber:
+    build:
+      context: .
+      dockerfile: DockerFiles/subscriber.Dockerfile
+    container_name: mqtt_subscriber
+    tty: true
+    restart: unless-stopped   
+  db:
+    image:  mongo
+    container_name: mongodb
+    tty: true
+    restart: unless-stopped 
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/data/db
+  fastapi:
+    build:
+      context: .
+      dockerfile: DockerFiles/fastapi.Dockerfile
+    container_name: fastapi
+    tty: true
+    restart: unless-stopped
+    ports:
+      - 80:8000
+  redis:
+    image: redis
+    tty: true
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - 6379:637

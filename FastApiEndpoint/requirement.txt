@@ -1,0 +1,4 @@
+mongoengine
+uvicorn
+redis
+fastapi

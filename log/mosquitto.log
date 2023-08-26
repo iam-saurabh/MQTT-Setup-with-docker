@@ -1,0 +1,1599 @@
+1692907790: mosquitto version 2.0.17 starting
+1692907790: Config loaded from /mosquitto/config/mosquitto.conf.
+1692907790: Opening ipv4 listen socket on port 1883.
+1692907790: Opening ipv6 listen socket on port 1883.
+1692907790: mosquitto version 2.0.17 running
+1692907791: New connection from 172.28.0.1:57390 on port 1883.
+1692907791: New connection from 172.28.0.1:57392 on port 1883.
+1692907791: New client connected from 172.28.0.1:57392 as sensor_simulator (p2, c1, k60).
+1692907791: New client connected from 172.28.0.1:57390 as mqtt_subscriber (p2, c1, k60).
+1692907815: mosquitto version 2.0.17 terminating
+1692908190: mosquitto version 2.0.17 starting
+1692908190: Config loaded from /mosquitto/config/mosquitto.conf.
+1692908190: Opening ipv4 listen socket on port 1883.
+1692908190: Opening ipv6 listen socket on port 1883.
+1692908190: mosquitto version 2.0.17 running
+1692908191: New connection from 172.28.0.1:48492 on port 1883.
+1692908191: New connection from 172.28.0.1:48498 on port 1883.
+1692908191: New client connected from 172.28.0.1:48492 as sensor_simulator (p2, c1, k60).
+1692908191: New client connected from 172.28.0.1:48498 as mqtt_subscriber (p2, c1, k60).
+1692908233: mosquitto version 2.0.17 terminating
+1692952183: mosquitto version 2.0.17 starting
+1692952183: Config loaded from /mosquitto/config/mosquitto.conf.
+1692952183: Opening ipv4 listen socket on port 1883.
+1692952183: Opening ipv6 listen socket on port 1883.
+1692952183: mosquitto version 2.0.17 running
+1692952183: New connection from 172.28.0.1:59956 on port 1883.
+1692952183: New client connected from 172.28.0.1:59956 as mqtt_subscriber (p2, c1, k60).
+1692952183: New connection from 172.28.0.1:59962 on port 1883.
+1692952183: New client connected from 172.28.0.1:59962 as sensor_simulator (p2, c1, k60).
+1692952209: mosquitto version 2.0.17 terminating
+1692952394: mosquitto version 2.0.17 starting
+1692952394: Config loaded from /mosquitto/config/mosquitto.conf.
+1692952394: Opening ipv4 listen socket on port 1883.
+1692952394: Opening ipv6 listen socket on port 1883.
+1692952394: mosquitto version 2.0.17 running
+1692952395: New connection from 172.18.0.1:59734 on port 1883.
+1692952395: New client connected from 172.18.0.1:59734 as mqtt_subscriber (p2, c1, k60).
+1692952395: New connection from 172.18.0.1:59736 on port 1883.
+1692952395: New client connected from 172.18.0.1:59736 as sensor_simulator (p2, c1, k60).
+1692952423: mosquitto version 2.0.17 terminating
+1692952482: mosquitto version 2.0.17 starting
+1692952482: Config loaded from /mosquitto/config/mosquitto.conf.
+1692952482: Opening ipv4 listen socket on port 1883.
+1692952482: Opening ipv6 listen socket on port 1883.
+1692952482: mosquitto version 2.0.17 running
+1692952482: New connection from 172.18.0.1:58828 on port 1883.
+1692952482: New client connected from 172.18.0.1:58828 as sensor_simulator (p2, c1, k60).
+1692952507: mosquitto version 2.0.17 terminating
+1692952641: mosquitto version 2.0.17 starting
+1692952641: Config loaded from /mosquitto/config/mosquitto.conf.
+1692952641: Opening ipv4 listen socket on port 1883.
+1692952641: Opening ipv6 listen socket on port 1883.
+1692952641: mosquitto version 2.0.17 running
+1692952641: New connection from 172.18.0.1:49146 on port 1883.
+1692952641: New client connected from 172.18.0.1:49146 as sensor_simulator (p2, c1, k60).
+1692952715: mosquitto version 2.0.17 terminating
+1692952763: mosquitto version 2.0.17 starting
+1692952763: Config loaded from /mosquitto/config/mosquitto.conf.
+1692952763: Opening ipv4 listen socket on port 1883.
+1692952763: Opening ipv6 listen socket on port 1883.
+1692952763: mosquitto version 2.0.17 running
+1692952763: New connection from 172.18.0.1:36746 on port 1883.
+1692952763: New client connected from 172.18.0.1:36746 as mqtt_subscriber (p2, c1, k60).
+1692952763: New connection from 172.18.0.1:36750 on port 1883.
+1692952763: New client connected from 172.18.0.1:36750 as sensor_simulator (p2, c1, k60).
+1692952794: Client mqtt_subscriber closed its connection.
+1692952795: New connection from 172.18.0.1:39164 on port 1883.
+1692952795: New client connected from 172.18.0.1:39164 as mqtt_subscriber (p2, c1, k60).
+1692952829: Client mqtt_subscriber closed its connection.
+1692952830: New connection from 172.18.0.1:56046 on port 1883.
+1692952830: New client connected from 172.18.0.1:56046 as mqtt_subscriber (p2, c1, k60).
+1692952851: mosquitto version 2.0.17 terminating
+1692953141: mosquitto version 2.0.17 starting
+1692953141: Config loaded from /mosquitto/config/mosquitto.conf.
+1692953141: Opening ipv4 listen socket on port 1883.
+1692953141: Opening ipv6 listen socket on port 1883.
+1692953141: mosquitto version 2.0.17 running
+1692953141: New connection from 172.18.0.1:45284 on port 1883.
+1692953141: New client connected from 172.18.0.1:45284 as sensor_simulator (p2, c1, k60).
+1692953141: New connection from 172.18.0.1:45292 on port 1883.
+1692953141: New client connected from 172.18.0.1:45292 as mqtt_subscriber (p2, c1, k60).
+1692953141: Client mqtt_subscriber closed its connection.
+1692953142: New connection from 172.18.0.1:45302 on port 1883.
+1692953142: New client connected from 172.18.0.1:45302 as mqtt_subscriber (p2, c1, k60).
+1692953146: Client mqtt_subscriber closed its connection.
+1692953147: New connection from 172.18.0.1:45312 on port 1883.
+1692953147: New client connected from 172.18.0.1:45312 as mqtt_subscriber (p2, c1, k60).
+1692953151: Client mqtt_subscriber closed its connection.
+1692953152: New connection from 172.18.0.1:47066 on port 1883.
+1692953152: New client connected from 172.18.0.1:47066 as mqtt_subscriber (p2, c1, k60).
+1692953156: Client mqtt_subscriber closed its connection.
+1692953158: New connection from 172.18.0.1:47072 on port 1883.
+1692953158: New client connected from 172.18.0.1:47072 as mqtt_subscriber (p2, c1, k60).
+1692953161: Client mqtt_subscriber closed its connection.
+1692953164: New connection from 172.18.0.1:51656 on port 1883.
+1692953164: New client connected from 172.18.0.1:51656 as mqtt_subscriber (p2, c1, k60).
+1692953166: mosquitto version 2.0.17 terminating
+1692953726: mosquitto version 2.0.17 starting
+1692953726: Config loaded from /mosquitto/config/mosquitto.conf.
+1692953726: Opening ipv4 listen socket on port 1883.
+1692953726: Opening ipv6 listen socket on port 1883.
+1692953726: mosquitto version 2.0.17 running
+1692953726: New connection from 172.18.0.1:34776 on port 1883.
+1692953726: New client connected from 172.18.0.1:34776 as mqtt_subscriber (p2, c1, k60).
+1692953727: New connection from 172.18.0.1:34788 on port 1883.
+1692953727: New client connected from 172.18.0.1:34788 as sensor_simulator (p2, c1, k60).
+1692953731: Client mqtt_subscriber closed its connection.
+1692953732: New connection from 172.18.0.1:40222 on port 1883.
+1692953732: New client connected from 172.18.0.1:40222 as mqtt_subscriber (p2, c1, k60).
+1692953736: Client mqtt_subscriber closed its connection.
+1692953737: New connection from 172.18.0.1:40224 on port 1883.
+1692953737: New client connected from 172.18.0.1:40224 as mqtt_subscriber (p2, c1, k60).
+1692953741: Client mqtt_subscriber closed its connection.
+1692953742: New connection from 172.18.0.1:51134 on port 1883.
+1692953742: New client connected from 172.18.0.1:51134 as mqtt_subscriber (p2, c1, k60).
+1692953746: Client mqtt_subscriber closed its connection.
+1692953748: New connection from 172.18.0.1:51140 on port 1883.
+1692953748: New client connected from 172.18.0.1:51140 as mqtt_subscriber (p2, c1, k60).
+1692953751: Client mqtt_subscriber closed its connection.
+1692953753: New connection from 172.18.0.1:33852 on port 1883.
+1692953753: New client connected from 172.18.0.1:33852 as mqtt_subscriber (p2, c1, k60).
+1692953756: Client mqtt_subscriber closed its connection.
+1692953760: New connection from 172.18.0.1:39426 on port 1883.
+1692953760: New client connected from 172.18.0.1:39426 as mqtt_subscriber (p2, c1, k60).
+1692953761: Client mqtt_subscriber closed its connection.
+1692953763: mosquitto version 2.0.17 terminating
+1692953784: mosquitto version 2.0.17 starting
+1692953784: Config loaded from /mosquitto/config/mosquitto.conf.
+1692953784: Opening ipv4 listen socket on port 1883.
+1692953784: Opening ipv6 listen socket on port 1883.
+1692953784: mosquitto version 2.0.17 running
+1692953784: New connection from 172.18.0.1:50528 on port 1883.
+1692953784: New client connected from 172.18.0.1:50528 as sensor_simulator (p2, c1, k60).
+1692953784: New connection from 172.18.0.1:50542 on port 1883.
+1692953784: New client connected from 172.18.0.1:50542 as mqtt_subscriber (p2, c1, k60).
+1692953820: Client mqtt_subscriber closed its connection.
+1692953821: New connection from 172.18.0.1:41570 on port 1883.
+1692953821: New client connected from 172.18.0.1:41570 as mqtt_subscriber (p2, c1, k60).
+1692953855: Client mqtt_subscriber closed its connection.
+1692953856: New connection from 172.18.0.1:56638 on port 1883.
+1692953856: New client connected from 172.18.0.1:56638 as mqtt_subscriber (p2, c1, k60).
+1692953890: Client mqtt_subscriber closed its connection.
+1692953891: New connection from 172.18.0.1:39544 on port 1883.
+1692953891: New client connected from 172.18.0.1:39544 as mqtt_subscriber (p2, c1, k60).
+1692953925: Client mqtt_subscriber closed its connection.
+1692953926: New connection from 172.18.0.1:42430 on port 1883.
+1692953926: New client connected from 172.18.0.1:42430 as mqtt_subscriber (p2, c1, k60).
+1692953960: Client mqtt_subscriber closed its connection.
+1692953961: New connection from 172.18.0.1:41048 on port 1883.
+1692953961: New client connected from 172.18.0.1:41048 as mqtt_subscriber (p2, c1, k60).
+1692953995: Client mqtt_subscriber closed its connection.
+1692953996: New connection from 172.18.0.1:50596 on port 1883.
+1692953996: New client connected from 172.18.0.1:50596 as mqtt_subscriber (p2, c1, k60).
+1692954030: Client mqtt_subscriber closed its connection.
+1692954031: New connection from 172.18.0.1:44714 on port 1883.
+1692954031: New client connected from 172.18.0.1:44714 as mqtt_subscriber (p2, c1, k60).
+1692954065: Client mqtt_subscriber closed its connection.
+1692954066: New connection from 172.18.0.1:43738 on port 1883.
+1692954066: New client connected from 172.18.0.1:43738 as mqtt_subscriber (p2, c1, k60).
+1692954100: Client mqtt_subscriber closed its connection.
+1692954101: New connection from 172.18.0.1:60096 on port 1883.
+1692954101: New client connected from 172.18.0.1:60096 as mqtt_subscriber (p2, c1, k60).
+1692954135: Client mqtt_subscriber closed its connection.
+1692954136: New connection from 172.18.0.1:60296 on port 1883.
+1692954136: New client connected from 172.18.0.1:60296 as mqtt_subscriber (p2, c1, k60).
+1692954170: Client mqtt_subscriber closed its connection.
+1692954171: New connection from 172.18.0.1:39414 on port 1883.
+1692954171: New client connected from 172.18.0.1:39414 as mqtt_subscriber (p2, c1, k60).
+1692954205: Client mqtt_subscriber closed its connection.
+1692954206: New connection from 172.18.0.1:42648 on port 1883.
+1692954206: New client connected from 172.18.0.1:42648 as mqtt_subscriber (p2, c1, k60).
+1692954240: Client mqtt_subscriber closed its connection.
+1692954241: New connection from 172.18.0.1:58460 on port 1883.
+1692954241: New client connected from 172.18.0.1:58460 as mqtt_subscriber (p2, c1, k60).
+1692954275: Client mqtt_subscriber closed its connection.
+1692954276: New connection from 172.18.0.1:52918 on port 1883.
+1692954276: New client connected from 172.18.0.1:52918 as mqtt_subscriber (p2, c1, k60).
+1692954310: Client mqtt_subscriber closed its connection.
+1692954311: New connection from 172.18.0.1:34818 on port 1883.
+1692954311: New client connected from 172.18.0.1:34818 as mqtt_subscriber (p2, c1, k60).
+1692954345: Client mqtt_subscriber closed its connection.
+1692954346: New connection from 172.18.0.1:51132 on port 1883.
+1692954346: New client connected from 172.18.0.1:51132 as mqtt_subscriber (p2, c1, k60).
+1692954367: mosquitto version 2.0.17 terminating
+1692954485: mosquitto version 2.0.17 starting
+1692954485: Config loaded from /mosquitto/config/mosquitto.conf.
+1692954485: Opening ipv4 listen socket on port 1883.
+1692954485: Opening ipv6 listen socket on port 1883.
+1692954485: mosquitto version 2.0.17 running
+1692954485: New connection from 172.19.0.1:35526 on port 1883.
+1692954485: New client connected from 172.19.0.1:35526 as sensor_simulator (p2, c1, k60).
+1692954486: New connection from 172.19.0.1:35532 on port 1883.
+1692954486: New client connected from 172.19.0.1:35532 as mqtt_subscriber (p2, c1, k60).
+1692954573: mosquitto version 2.0.17 terminating
+1692955518: mosquitto version 2.0.17 starting
+1692955518: Config loaded from /mosquitto/config/mosquitto.conf.
+1692955518: Opening ipv4 listen socket on port 1883.
+1692955518: Opening ipv6 listen socket on port 1883.
+1692955518: mosquitto version 2.0.17 running
+1692955519: New connection from 172.21.0.1:59766 on port 1883.
+1692955519: New connection from 172.21.0.1:59768 on port 1883.
+1692955519: New client connected from 172.21.0.1:59766 as sensor_simulator (p2, c1, k60).
+1692955519: New client connected from 172.21.0.1:59768 as mqtt_subscriber (p2, c1, k60).
+1692955554: Client mqtt_subscriber closed its connection.
+1692955555: New connection from 172.21.0.1:54242 on port 1883.
+1692955555: New client connected from 172.21.0.1:54242 as mqtt_subscriber (p2, c1, k60).
+1692955589: Client mqtt_subscriber closed its connection.
+1692955590: New connection from 172.21.0.1:59758 on port 1883.
+1692955590: New client connected from 172.21.0.1:59758 as mqtt_subscriber (p2, c1, k60).
+1692955624: Client mqtt_subscriber closed its connection.
+1692955625: New connection from 172.21.0.1:41386 on port 1883.
+1692955625: New client connected from 172.21.0.1:41386 as mqtt_subscriber (p2, c1, k60).
+1692955641: mosquitto version 2.0.17 terminating
+1692957379: mosquitto version 2.0.17 starting
+1692957379: Config loaded from /mosquitto/config/mosquitto.conf.
+1692957379: Opening ipv4 listen socket on port 1883.
+1692957379: Opening ipv6 listen socket on port 1883.
+1692957379: mosquitto version 2.0.17 running
+1692957379: New connection from 172.26.0.1:55296 on port 1883.
+1692957379: New client connected from 172.26.0.1:55296 as sensor_simulator (p2, c1, k60).
+1692957380: New connection from 172.26.0.1:55302 on port 1883.
+1692957380: New client connected from 172.26.0.1:55302 as mqtt_subscriber (p2, c1, k60).
+1692957415: Client mqtt_subscriber closed its connection.
+1692957416: New connection from 172.26.0.1:49382 on port 1883.
+1692957416: New client connected from 172.26.0.1:49382 as mqtt_subscriber (p2, c1, k60).
+1692957450: Client mqtt_subscriber closed its connection.
+1692957451: New connection from 172.26.0.1:37040 on port 1883.
+1692957451: New client connected from 172.26.0.1:37040 as mqtt_subscriber (p2, c1, k60).
+1692957485: Client mqtt_subscriber closed its connection.
+1692957486: New connection from 172.26.0.1:44632 on port 1883.
+1692957486: New client connected from 172.26.0.1:44632 as mqtt_subscriber (p2, c1, k60).
+1692957520: Client mqtt_subscriber closed its connection.
+1692957521: New connection from 172.26.0.1:33486 on port 1883.
+1692957521: New client connected from 172.26.0.1:33486 as mqtt_subscriber (p2, c1, k60).
+1692957555: Client mqtt_subscriber closed its connection.
+1692957556: New connection from 172.26.0.1:40340 on port 1883.
+1692957556: New client connected from 172.26.0.1:40340 as mqtt_subscriber (p2, c1, k60).
+1692957590: Client mqtt_subscriber closed its connection.
+1692957591: New connection from 172.26.0.1:34784 on port 1883.
+1692957591: New client connected from 172.26.0.1:34784 as mqtt_subscriber (p2, c1, k60).
+1692957625: Client mqtt_subscriber closed its connection.
+1692957626: New connection from 172.26.0.1:54082 on port 1883.
+1692957626: New client connected from 172.26.0.1:54082 as mqtt_subscriber (p2, c1, k60).
+1692957660: Client mqtt_subscriber closed its connection.
+1692957662: New connection from 172.26.0.1:36824 on port 1883.
+1692957662: New client connected from 172.26.0.1:36824 as mqtt_subscriber (p2, c1, k60).
+1692957695: Client mqtt_subscriber closed its connection.
+1692957696: New connection from 172.26.0.1:60428 on port 1883.
+1692957696: New client connected from 172.26.0.1:60428 as mqtt_subscriber (p2, c1, k60).
+1692957731: Client mqtt_subscriber closed its connection.
+1692957732: New connection from 172.26.0.1:36974 on port 1883.
+1692957732: New client connected from 172.26.0.1:36974 as mqtt_subscriber (p2, c1, k60).
+1692957736: mosquitto version 2.0.17 terminating
+1692958245: mosquitto version 2.0.17 starting
+1692958245: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958245: Opening ipv4 listen socket on port 1883.
+1692958245: Opening ipv6 listen socket on port 1883.
+1692958245: mosquitto version 2.0.17 running
+1692958245: New connection from 172.28.0.1:48662 on port 1883.
+1692958245: New client connected from 172.28.0.1:48662 as sensor_simulator (p2, c1, k60).
+1692958278: mosquitto version 2.0.17 terminating
+1692958289: mosquitto version 2.0.17 starting
+1692958289: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958289: Opening ipv4 listen socket on port 1883.
+1692958289: Opening ipv6 listen socket on port 1883.
+1692958289: mosquitto version 2.0.17 running
+1692958290: New connection from 172.28.0.1:46794 on port 1883.
+1692958290: New client connected from 172.28.0.1:46794 as sensor_simulator (p2, c1, k60).
+1692958323: mosquitto version 2.0.17 terminating
+1692958354: mosquitto version 2.0.17 starting
+1692958354: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958354: Opening ipv4 listen socket on port 1883.
+1692958354: Opening ipv6 listen socket on port 1883.
+1692958354: mosquitto version 2.0.17 running
+1692958354: New connection from 172.28.0.1:36722 on port 1883.
+1692958354: New client connected from 172.28.0.1:36722 as sensor_simulator (p2, c1, k60).
+1692958394: mosquitto version 2.0.17 terminating
+1692958416: mosquitto version 2.0.17 starting
+1692958416: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958416: Opening ipv4 listen socket on port 1883.
+1692958416: Opening ipv6 listen socket on port 1883.
+1692958416: mosquitto version 2.0.17 running
+1692958417: New connection from 172.28.0.1:34174 on port 1883.
+1692958417: New client connected from 172.28.0.1:34174 as sensor_simulator (p2, c1, k60).
+1692958433: mosquitto version 2.0.17 terminating
+1692958489: mosquitto version 2.0.17 starting
+1692958489: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958489: Opening ipv4 listen socket on port 1883.
+1692958489: Opening ipv6 listen socket on port 1883.
+1692958489: mosquitto version 2.0.17 running
+1692958489: New connection from 172.28.0.1:56236 on port 1883.
+1692958489: New client connected from 172.28.0.1:56236 as sensor_simulator (p2, c1, k60).
+1692958489: New connection from 172.28.0.1:56250 on port 1883.
+1692958489: New client connected from 172.28.0.1:56250 as mqtt_subscriber (p2, c1, k60).
+1692958494: Client mqtt_subscriber closed its connection.
+1692958495: New connection from 172.28.0.1:56266 on port 1883.
+1692958495: New client connected from 172.28.0.1:56266 as mqtt_subscriber (p2, c1, k60).
+1692958499: Client mqtt_subscriber closed its connection.
+1692958500: New connection from 172.28.0.1:44132 on port 1883.
+1692958500: New client connected from 172.28.0.1:44132 as mqtt_subscriber (p2, c1, k60).
+1692958504: Client mqtt_subscriber closed its connection.
+1692958505: New connection from 172.28.0.1:44142 on port 1883.
+1692958505: New client connected from 172.28.0.1:44142 as mqtt_subscriber (p2, c1, k60).
+1692958509: Client mqtt_subscriber closed its connection.
+1692958511: New connection from 172.28.0.1:38486 on port 1883.
+1692958511: New client connected from 172.28.0.1:38486 as mqtt_subscriber (p2, c1, k60).
+1692958514: Client mqtt_subscriber closed its connection.
+1692958517: New connection from 172.28.0.1:38490 on port 1883.
+1692958517: New client connected from 172.28.0.1:38490 as mqtt_subscriber (p2, c1, k60).
+1692958519: Client mqtt_subscriber closed its connection.
+1692958523: New connection from 172.28.0.1:41960 on port 1883.
+1692958523: New client connected from 172.28.0.1:41960 as mqtt_subscriber (p2, c1, k60).
+1692958524: Client mqtt_subscriber closed its connection.
+1692958531: New connection from 172.28.0.1:40680 on port 1883.
+1692958531: New client connected from 172.28.0.1:40680 as mqtt_subscriber (p2, c1, k60).
+1692958534: Client mqtt_subscriber closed its connection.
+1692958548: New connection from 172.28.0.1:47958 on port 1883.
+1692958548: New client connected from 172.28.0.1:47958 as mqtt_subscriber (p2, c1, k60).
+1692958549: Client mqtt_subscriber closed its connection.
+1692958576: New connection from 172.28.0.1:46422 on port 1883.
+1692958576: New client connected from 172.28.0.1:46422 as mqtt_subscriber (p2, c1, k60).
+1692958579: Client mqtt_subscriber closed its connection.
+1692958614: mosquitto version 2.0.17 terminating
+1692958640: mosquitto version 2.0.17 starting
+1692958640: Config loaded from /mosquitto/config/mosquitto.conf.
+1692958640: Opening ipv4 listen socket on port 1883.
+1692958640: Opening ipv6 listen socket on port 1883.
+1692958640: mosquitto version 2.0.17 running
+1692958641: New connection from 172.28.0.1:47522 on port 1883.
+1692958641: New connection from 172.28.0.1:47528 on port 1883.
+1692958641: New client connected from 172.28.0.1:47522 as sensor_simulator (p2, c1, k60).
+1692958641: New client connected from 172.28.0.1:47528 as mqtt_subscriber (p2, c1, k60).
+1692958676: Client mqtt_subscriber closed its connection.
+1692958677: New connection from 172.28.0.1:51942 on port 1883.
+1692958677: New client connected from 172.28.0.1:51942 as mqtt_subscriber (p2, c1, k60).
+1692958711: Client mqtt_subscriber closed its connection.
+1692958712: New connection from 172.28.0.1:51202 on port 1883.
+1692958712: New client connected from 172.28.0.1:51202 as mqtt_subscriber (p2, c1, k60).
+1692958746: Client mqtt_subscriber closed its connection.
+1692958747: New connection from 172.28.0.1:35650 on port 1883.
+1692958747: New client connected from 172.28.0.1:35650 as mqtt_subscriber (p2, c1, k60).
+1692958781: Client mqtt_subscriber closed its connection.
+1692958782: New connection from 172.28.0.1:50086 on port 1883.
+1692958782: New client connected from 172.28.0.1:50086 as mqtt_subscriber (p2, c1, k60).
+1692958816: Client mqtt_subscriber closed its connection.
+1692958817: New connection from 172.28.0.1:44800 on port 1883.
+1692958817: New client connected from 172.28.0.1:44800 as mqtt_subscriber (p2, c1, k60).
+1692958851: Client mqtt_subscriber closed its connection.
+1692958852: New connection from 172.28.0.1:44886 on port 1883.
+1692958852: New client connected from 172.28.0.1:44886 as mqtt_subscriber (p2, c1, k60).
+1692958886: Client mqtt_subscriber closed its connection.
+1692958887: New connection from 172.28.0.1:52730 on port 1883.
+1692958887: New client connected from 172.28.0.1:52730 as mqtt_subscriber (p2, c1, k60).
+1692958921: Client mqtt_subscriber closed its connection.
+1692958922: New connection from 172.28.0.1:34220 on port 1883.
+1692958922: New client connected from 172.28.0.1:34220 as mqtt_subscriber (p2, c1, k60).
+1692958956: Client mqtt_subscriber closed its connection.
+1692958957: New connection from 172.28.0.1:34562 on port 1883.
+1692958957: New client connected from 172.28.0.1:34562 as mqtt_subscriber (p2, c1, k60).
+1692958988: mosquitto version 2.0.17 terminating
+1692959011: mosquitto version 2.0.17 starting
+1692959011: Config loaded from /mosquitto/config/mosquitto.conf.
+1692959011: Opening ipv4 listen socket on port 1883.
+1692959011: Opening ipv6 listen socket on port 1883.
+1692959011: mosquitto version 2.0.17 running
+1692959011: New connection from 172.28.0.1:49500 on port 1883.
+1692959011: New client connected from 172.28.0.1:49500 as mqtt_subscriber (p2, c1, k60).
+1692959012: New connection from 172.28.0.1:49510 on port 1883.
+1692959012: New client connected from 172.28.0.1:49510 as sensor_simulator (p2, c1, k60).
+1692959033: mosquitto version 2.0.17 terminating
+1692959082: mosquitto version 2.0.17 starting
+1692959082: Config loaded from /mosquitto/config/mosquitto.conf.
+1692959082: Opening ipv4 listen socket on port 1883.
+1692959082: Opening ipv6 listen socket on port 1883.
+1692959082: mosquitto version 2.0.17 running
+1692959082: New connection from 172.28.0.1:56024 on port 1883.
+1692959082: New client connected from 172.28.0.1:56024 as mqtt_subscriber (p2, c1, k60).
+1692959083: New connection from 172.28.0.1:56034 on port 1883.
+1692959083: New client connected from 172.28.0.1:56034 as sensor_simulator (p2, c1, k60).
+1692959099: mosquitto version 2.0.17 terminating
+1692959361: mosquitto version 2.0.17 starting
+1692959361: Config loaded from /mosquitto/config/mosquitto.conf.
+1692959361: Opening ipv4 listen socket on port 1883.
+1692959361: Opening ipv6 listen socket on port 1883.
+1692959361: mosquitto version 2.0.17 running
+1692959361: New connection from 172.28.0.1:44528 on port 1883.
+1692959361: New client connected from 172.28.0.1:44528 as mqtt_subscriber (p2, c1, k60).
+1692959361: New connection from 172.28.0.1:44536 on port 1883.
+1692959361: New client connected from 172.28.0.1:44536 as sensor_simulator (p2, c1, k60).
+1692959392: Client mqtt_subscriber closed its connection.
+1692959393: New connection from 172.28.0.1:49644 on port 1883.
+1692959393: New client connected from 172.28.0.1:49644 as mqtt_subscriber (p2, c1, k60).
+1692959427: Client mqtt_subscriber closed its connection.
+1692959428: New connection from 172.28.0.1:33920 on port 1883.
+1692959428: New client connected from 172.28.0.1:33920 as mqtt_subscriber (p2, c1, k60).
+1692959462: Client mqtt_subscriber closed its connection.
+1692959463: New connection from 172.28.0.1:33192 on port 1883.
+1692959463: New client connected from 172.28.0.1:33192 as mqtt_subscriber (p2, c1, k60).
+1692959497: Client mqtt_subscriber closed its connection.
+1692959498: New connection from 172.28.0.1:35132 on port 1883.
+1692959498: New client connected from 172.28.0.1:35132 as mqtt_subscriber (p2, c1, k60).
+1692959532: Client mqtt_subscriber closed its connection.
+1692959533: New connection from 172.28.0.1:46804 on port 1883.
+1692959533: New client connected from 172.28.0.1:46804 as mqtt_subscriber (p2, c1, k60).
+1692959565: New connection from 192.168.85.132:45411 on port 1883.
+1692959565: New client connected from 192.168.85.132:45411 as auto-0C160D0F-DC7B-DB41-3C81-B9B98B1BB2F1 (p2, c1, k60).
+1692959567: Client mqtt_subscriber closed its connection.
+1692959568: New connection from 172.28.0.1:59658 on port 1883.
+1692959568: New client connected from 172.28.0.1:59658 as mqtt_subscriber (p2, c1, k60).
+1692959602: Client mqtt_subscriber closed its connection.
+1692959604: New connection from 172.28.0.1:43084 on port 1883.
+1692959604: New client connected from 172.28.0.1:43084 as mqtt_subscriber (p2, c1, k60).
+1692959638: Client mqtt_subscriber closed its connection.
+1692959639: New connection from 172.28.0.1:56052 on port 1883.
+1692959639: New client connected from 172.28.0.1:56052 as mqtt_subscriber (p2, c1, k60).
+1692959655: Client auto-0C160D0F-DC7B-DB41-3C81-B9B98B1BB2F1 closed its connection.
+1692959660: New connection from 192.168.85.132:42157 on port 1883.
+1692959660: New client connected from 192.168.85.132:42157 as auto-A58D0A83-3C5D-4EE5-BC95-F5B431F0BDCD (p2, c1, k60).
+1692959673: Client mqtt_subscriber closed its connection.
+1692959673: New connection from 172.28.0.1:34388 on port 1883.
+1692959673: New client connected from 172.28.0.1:34388 as mqtt_subscriber (p2, c1, k60).
+1692959674: Client auto-A58D0A83-3C5D-4EE5-BC95-F5B431F0BDCD closed its connection.
+1692959708: Client mqtt_subscriber closed its connection.
+1692959708: New connection from 172.28.0.1:45804 on port 1883.
+1692959708: New client connected from 172.28.0.1:45804 as mqtt_subscriber (p2, c1, k60).
+1692959743: Client mqtt_subscriber closed its connection.
+1692959744: New connection from 172.28.0.1:46404 on port 1883.
+1692959744: New client connected from 172.28.0.1:46404 as mqtt_subscriber (p2, c1, k60).
+1692959778: Client mqtt_subscriber closed its connection.
+1692959779: New connection from 172.28.0.1:39484 on port 1883.
+1692959779: New client connected from 172.28.0.1:39484 as mqtt_subscriber (p2, c1, k60).
+1692959813: Client mqtt_subscriber closed its connection.
+1692959814: New connection from 172.28.0.1:52656 on port 1883.
+1692959814: New client connected from 172.28.0.1:52656 as mqtt_subscriber (p2, c1, k60).
+1692959837: New connection from 192.168.85.132:38743 on port 1883.
+1692959837: New client connected from 192.168.85.132:38743 as auto-12152E78-0E34-1617-2858-B0E6BC41ACDB (p2, c1, k60).
+1692959842: Client auto-12152E78-0E34-1617-2858-B0E6BC41ACDB closed its connection.
+1692959848: Client mqtt_subscriber closed its connection.
+1692959849: New connection from 172.28.0.1:36740 on port 1883.
+1692959849: New client connected from 172.28.0.1:36740 as mqtt_subscriber (p2, c1, k60).
+1692959867: New connection from 192.168.85.132:47895 on port 1883.
+1692959867: New client connected from 192.168.85.132:47895 as auto-96532FDF-91E1-97B0-4A86-FAC1AE885F1E (p2, c1, k60).
+1692959873: Client auto-96532FDF-91E1-97B0-4A86-FAC1AE885F1E closed its connection.
+1692959883: Client mqtt_subscriber closed its connection.
+1692959884: New connection from 172.28.0.1:39152 on port 1883.
+1692959884: New client connected from 172.28.0.1:39152 as mqtt_subscriber (p2, c1, k60).
+1692959914: New connection from 192.168.85.132:33469 on port 1883.
+1692959914: New client connected from 192.168.85.132:33469 as auto-168AF829-7FE8-7DEE-C472-145B2B39F3C7 (p2, c1, k60).
+1692959918: Client mqtt_subscriber closed its connection.
+1692959919: New connection from 172.28.0.1:46394 on port 1883.
+1692959919: New client connected from 172.28.0.1:46394 as mqtt_subscriber (p2, c1, k60).
+1692959922: Client auto-168AF829-7FE8-7DEE-C472-145B2B39F3C7 closed its connection.
+1692959953: Client mqtt_subscriber closed its connection.
+1692959954: New connection from 172.28.0.1:59248 on port 1883.
+1692959954: New client connected from 172.28.0.1:59248 as mqtt_subscriber (p2, c1, k60).
+1692959988: Client mqtt_subscriber closed its connection.
+1692959989: New connection from 172.28.0.1:37834 on port 1883.
+1692959989: New client connected from 172.28.0.1:37834 as mqtt_subscriber (p2, c1, k60).
+1692960023: Client mqtt_subscriber closed its connection.
+1692960024: New connection from 172.28.0.1:38072 on port 1883.
+1692960024: New client connected from 172.28.0.1:38072 as mqtt_subscriber (p2, c1, k60).
+1692960058: Client mqtt_subscriber closed its connection.
+1692960059: New connection from 172.28.0.1:42944 on port 1883.
+1692960059: New client connected from 172.28.0.1:42944 as mqtt_subscriber (p2, c1, k60).
+1692960072: New connection from 192.168.85.132:50595 on port 1883.
+1692960072: New client connected from 192.168.85.132:50595 as auto-6E8A127B-10F2-1570-C693-D921C8483329 (p2, c1, k60).
+1692960093: Client mqtt_subscriber closed its connection.
+1692960094: New connection from 172.28.0.1:36180 on port 1883.
+1692960094: New client connected from 172.28.0.1:36180 as mqtt_subscriber (p2, c1, k60).
+1692960100: Client auto-6E8A127B-10F2-1570-C693-D921C8483329 closed its connection.
+1692960128: Client mqtt_subscriber closed its connection.
+1692960129: New connection from 172.28.0.1:36240 on port 1883.
+1692960129: New client connected from 172.28.0.1:36240 as mqtt_subscriber (p2, c1, k60).
+1692960163: Client mqtt_subscriber closed its connection.
+1692960164: New connection from 172.28.0.1:44620 on port 1883.
+1692960164: New client connected from 172.28.0.1:44620 as mqtt_subscriber (p2, c1, k60).
+1692960165: New connection from 192.168.85.132:48431 on port 1883.
+1692960165: New client connected from 192.168.85.132:48431 as auto-8D46122E-E824-8308-FC77-0B09E414FB49 (p2, c1, k60).
+1692960195: Client auto-8D46122E-E824-8308-FC77-0B09E414FB49 closed its connection.
+1692960198: Client mqtt_subscriber closed its connection.
+1692960199: New connection from 172.28.0.1:39536 on port 1883.
+1692960199: New client connected from 172.28.0.1:39536 as mqtt_subscriber (p2, c1, k60).
+1692960233: Client mqtt_subscriber closed its connection.
+1692960234: New connection from 172.28.0.1:38266 on port 1883.
+1692960234: New client connected from 172.28.0.1:38266 as mqtt_subscriber (p2, c1, k60).
+1692960268: Client mqtt_subscriber closed its connection.
+1692960269: New connection from 172.28.0.1:49878 on port 1883.
+1692960269: New client connected from 172.28.0.1:49878 as mqtt_subscriber (p2, c1, k60).
+1692960303: Client mqtt_subscriber closed its connection.
+1692960304: New connection from 172.28.0.1:56164 on port 1883.
+1692960304: New client connected from 172.28.0.1:56164 as mqtt_subscriber (p2, c1, k60).
+1692960338: Client mqtt_subscriber closed its connection.
+1692960339: New connection from 172.28.0.1:58058 on port 1883.
+1692960339: New client connected from 172.28.0.1:58058 as mqtt_subscriber (p2, c1, k60).
+1692960373: Client mqtt_subscriber closed its connection.
+1692960374: New connection from 172.28.0.1:35294 on port 1883.
+1692960374: New client connected from 172.28.0.1:35294 as mqtt_subscriber (p2, c1, k60).
+1692960408: Client mqtt_subscriber closed its connection.
+1692960409: New connection from 172.28.0.1:35936 on port 1883.
+1692960409: New client connected from 172.28.0.1:35936 as mqtt_subscriber (p2, c1, k60).
+1692960443: Client mqtt_subscriber closed its connection.
+1692960444: New connection from 172.28.0.1:39564 on port 1883.
+1692960444: New client connected from 172.28.0.1:39564 as mqtt_subscriber (p2, c1, k60).
+1692960478: Client mqtt_subscriber closed its connection.
+1692960480: New connection from 172.28.0.1:45472 on port 1883.
+1692960480: New client connected from 172.28.0.1:45472 as mqtt_subscriber (p2, c1, k60).
+1692960513: Client mqtt_subscriber closed its connection.
+1692960514: New connection from 172.28.0.1:48282 on port 1883.
+1692960514: New client connected from 172.28.0.1:48282 as mqtt_subscriber (p2, c1, k60).
+1692960549: Client mqtt_subscriber closed its connection.
+1692960550: New connection from 172.28.0.1:51994 on port 1883.
+1692960550: New client connected from 172.28.0.1:51994 as mqtt_subscriber (p2, c1, k60).
+1692960584: Client mqtt_subscriber closed its connection.
+1692960585: New connection from 172.28.0.1:55604 on port 1883.
+1692960585: New client connected from 172.28.0.1:55604 as mqtt_subscriber (p2, c1, k60).
+1692960619: Client mqtt_subscriber closed its connection.
+1692960620: New connection from 172.28.0.1:52106 on port 1883.
+1692960620: New client connected from 172.28.0.1:52106 as mqtt_subscriber (p2, c1, k60).
+1692960654: Client mqtt_subscriber closed its connection.
+1692960654: New connection from 172.28.0.1:53634 on port 1883.
+1692960654: New client connected from 172.28.0.1:53634 as mqtt_subscriber (p2, c1, k60).
+1692960689: Client mqtt_subscriber closed its connection.
+1692960690: New connection from 172.28.0.1:50102 on port 1883.
+1692960690: New client connected from 172.28.0.1:50102 as mqtt_subscriber (p2, c1, k60).
+1692960724: Client mqtt_subscriber closed its connection.
+1692960724: New connection from 172.28.0.1:40436 on port 1883.
+1692960724: New client connected from 172.28.0.1:40436 as mqtt_subscriber (p2, c1, k60).
+1692960759: Client mqtt_subscriber closed its connection.
+1692960759: New connection from 172.28.0.1:59528 on port 1883.
+1692960759: New client connected from 172.28.0.1:59528 as mqtt_subscriber (p2, c1, k60).
+1692960776: mosquitto version 2.0.17 terminating
+1692960852: mosquitto version 2.0.17 starting
+1692960852: Config loaded from /mosquitto/config/mosquitto.conf.
+1692960852: Opening ipv4 listen socket on port 1883.
+1692960852: Opening ipv6 listen socket on port 1883.
+1692960852: mosquitto version 2.0.17 running
+1692960852: New connection from 172.28.0.1:44008 on port 1883.
+1692960852: New client connected from 172.28.0.1:44008 as mqtt_subscriber (p2, c1, k60).
+1692960852: New connection from 172.28.0.1:44024 on port 1883.
+1692960852: New client connected from 172.28.0.1:44024 as sensor_simulator (p2, c1, k60).
+1692960915: mosquitto version 2.0.17 terminating
+1692961535: mosquitto version 2.0.17 starting
+1692961535: Config loaded from /mosquitto/config/mosquitto.conf.
+1692961535: Opening ipv4 listen socket on port 1883.
+1692961535: Opening ipv6 listen socket on port 1883.
+1692961535: mosquitto version 2.0.17 running
+1692961535: New connection from 172.28.0.1:54964 on port 1883.
+1692961535: New client connected from 172.28.0.1:54964 as sensor_simulator (p2, c1, k60).
+1692961535: New connection from 172.28.0.1:54972 on port 1883.
+1692961535: New client connected from 172.28.0.1:54972 as mqtt_subscriber (p2, c1, k60).
+1692961580: mosquitto version 2.0.17 terminating
+1692962645: mosquitto version 2.0.17 starting
+1692962645: Config loaded from /mosquitto/config/mosquitto.conf.
+1692962645: Opening ipv4 listen socket on port 1883.
+1692962645: Opening ipv6 listen socket on port 1883.
+1692962645: mosquitto version 2.0.17 running
+1692962646: New connection from 172.28.0.1:33390 on port 1883.
+1692962646: New connection from 172.28.0.1:33402 on port 1883.
+1692962646: New client connected from 172.28.0.1:33402 as mqtt_subscriber (p2, c1, k60).
+1692962646: New client connected from 172.28.0.1:33390 as sensor_simulator (p2, c1, k60).
+1692963397: mosquitto version 2.0.17 terminating
+1692964603: mosquitto version 2.0.17 starting
+1692964603: Config loaded from /mosquitto/config/mosquitto.conf.
+1692964603: Opening ipv4 listen socket on port 1883.
+1692964603: Opening ipv6 listen socket on port 1883.
+1692964603: mosquitto version 2.0.17 running
+1692964603: New connection from 172.29.0.1:42334 on port 1883.
+1692964603: New client connected from 172.29.0.1:42334 as sensor_simulator (p2, c1, k60).
+1692964604: New connection from 172.29.0.1:42338 on port 1883.
+1692964604: New client connected from 172.29.0.1:42338 as mqtt_subscriber (p2, c1, k60).
+1692964632: mosquitto version 2.0.17 terminating
+1692978310: mosquitto version 2.0.17 starting
+1692978310: Config loaded from /mosquitto/config/mosquitto.conf.
+1692978310: Opening ipv4 listen socket on port 1883.
+1692978310: Opening ipv6 listen socket on port 1883.
+1692978310: mosquitto version 2.0.17 running
+1692978311: New connection from 172.31.0.1:45076 on port 1883.
+1692978311: New connection from 172.31.0.1:45082 on port 1883.
+1692978311: New client connected from 172.31.0.1:45082 as sensor_simulator (p2, c1, k60).
+1692978311: New client connected from 172.31.0.1:45076 as mqtt_subscriber (p2, c1, k60).
+1692978452: mosquitto version 2.0.17 terminating
+1692978478: mosquitto version 2.0.17 starting
+1692978478: Config loaded from /mosquitto/config/mosquitto.conf.
+1692978478: Opening ipv4 listen socket on port 1883.
+1692978478: Opening ipv6 listen socket on port 1883.
+1692978478: mosquitto version 2.0.17 running
+1692978478: New connection from 172.31.0.1:36734 on port 1883.
+1692978478: New client connected from 172.31.0.1:36734 as sensor_simulator (p2, c1, k60).
+1692978478: New connection from 172.31.0.1:36750 on port 1883.
+1692978478: New client connected from 172.31.0.1:36750 as mqtt_subscriber (p2, c1, k60).
+1692978484: Client mqtt_subscriber closed its connection.
+1692978485: New connection from 172.31.0.1:42352 on port 1883.
+1692978485: New client connected from 172.31.0.1:42352 as mqtt_subscriber (p2, c1, k60).
+1692978489: Client mqtt_subscriber closed its connection.
+1692978490: New connection from 172.31.0.1:42016 on port 1883.
+1692978490: New client connected from 172.31.0.1:42016 as mqtt_subscriber (p2, c1, k60).
+1692978494: Client mqtt_subscriber closed its connection.
+1692978495: New connection from 172.31.0.1:42032 on port 1883.
+1692978495: New client connected from 172.31.0.1:42032 as mqtt_subscriber (p2, c1, k60).
+1692978499: Client mqtt_subscriber closed its connection.
+1692978500: New connection from 172.31.0.1:48410 on port 1883.
+1692978500: New client connected from 172.31.0.1:48410 as mqtt_subscriber (p2, c1, k60).
+1692978504: Client mqtt_subscriber closed its connection.
+1692978506: New connection from 172.31.0.1:48418 on port 1883.
+1692978506: New client connected from 172.31.0.1:48418 as mqtt_subscriber (p2, c1, k60).
+1692978509: Client mqtt_subscriber closed its connection.
+1692978513: New connection from 172.31.0.1:43032 on port 1883.
+1692978513: New client connected from 172.31.0.1:43032 as mqtt_subscriber (p2, c1, k60).
+1692978514: Client mqtt_subscriber closed its connection.
+1692978521: New connection from 172.31.0.1:37478 on port 1883.
+1692978521: New client connected from 172.31.0.1:37478 as mqtt_subscriber (p2, c1, k60).
+1692978524: Client mqtt_subscriber closed its connection.
+1692978538: New connection from 172.31.0.1:37768 on port 1883.
+1692978538: New client connected from 172.31.0.1:37768 as mqtt_subscriber (p2, c1, k60).
+1692978539: Client mqtt_subscriber closed its connection.
+1692978566: New connection from 172.31.0.1:33442 on port 1883.
+1692978566: New client connected from 172.31.0.1:33442 as mqtt_subscriber (p2, c1, k60).
+1692978569: Client mqtt_subscriber closed its connection.
+1692978621: New connection from 172.31.0.1:35358 on port 1883.
+1692978621: New client connected from 172.31.0.1:35358 as mqtt_subscriber (p2, c1, k60).
+1692978624: Client mqtt_subscriber closed its connection.
+1692978631: New connection from 172.31.0.1:56641 on port 1883.
+1692978631: New client connected from 172.31.0.1:56641 as mqtt_subscriber (p2, c1, k60).
+1692978634: Client mqtt_subscriber closed its connection.
+1692978685: New connection from 172.31.0.1:56718 on port 1883.
+1692978685: New client connected from 172.31.0.1:56718 as mqtt_subscriber (p2, c1, k60).
+1692978689: Client mqtt_subscriber closed its connection.
+1692978702: New connection from 172.31.0.1:44151 on port 1883.
+1692978702: New client connected from 172.31.0.1:44151 as mqtt_subscriber (p2, c1, k60).
+1692978719: Client mqtt_subscriber closed its connection.
+1692978750: New connection from 172.31.0.1:54970 on port 1883.
+1692978750: New client connected from 172.31.0.1:54970 as mqtt_subscriber (p2, c1, k60).
+1692978754: Client mqtt_subscriber closed its connection.
+1692978761: New connection from 172.31.0.1:35203 on port 1883.
+1692978761: New client connected from 172.31.0.1:35203 as mqtt_subscriber (p2, c1, k60).
+1692978776: Client mqtt_subscriber closed its connection.
+1692978812: New connection from 172.31.0.1:53109 on port 1883.
+1692978812: New client connected from 172.31.0.1:53109 as mqtt_subscriber (p2, c1, k60).
+1692978814: Client mqtt_subscriber closed its connection.
+1692978815: New connection from 172.31.0.1:44766 on port 1883.
+1692978815: New client connected from 172.31.0.1:44766 as mqtt_subscriber (p2, c1, k60).
+1692978819: Client mqtt_subscriber closed its connection.
+1692978862: New connection from 172.31.0.1:49417 on port 1883.
+1692978862: New client connected from 172.31.0.1:49417 as mqtt_subscriber (p2, c1, k60).
+1692978871: Client mqtt_subscriber closed its connection.
+1692978880: New connection from 172.31.0.1:40844 on port 1883.
+1692978880: New client connected from 172.31.0.1:40844 as mqtt_subscriber (p2, c1, k60).
+1692978884: Client mqtt_subscriber closed its connection.
+1692978945: New connection from 172.31.0.1:38174 on port 1883.
+1692978945: New client connected from 172.31.0.1:38174 as mqtt_subscriber (p2, c1, k60).
+1692978949: Client mqtt_subscriber closed its connection.
+1692979010: New connection from 172.31.0.1:42230 on port 1883.
+1692979010: New client connected from 172.31.0.1:42230 as mqtt_subscriber (p2, c1, k60).
+1692979014: Client mqtt_subscriber closed its connection.
+1692979034: New connection from 172.31.0.1:59863 on port 1883.
+1692979034: New client connected from 172.31.0.1:59863 as mqtt_subscriber (p2, c1, k60).
+1692979039: Client mqtt_subscriber closed its connection.
+1692979075: New connection from 172.31.0.1:37658 on port 1883.
+1692979075: New client connected from 172.31.0.1:37658 as mqtt_subscriber (p2, c1, k60).
+1692979080: Client mqtt_subscriber closed its connection.
+1692979140: New connection from 172.31.0.1:33284 on port 1883.
+1692979140: New client connected from 172.31.0.1:33284 as mqtt_subscriber (p2, c1, k60).
+1692979145: Client mqtt_subscriber closed its connection.
+1692979206: New connection from 172.31.0.1:59516 on port 1883.
+1692979206: New client connected from 172.31.0.1:59516 as mqtt_subscriber (p2, c1, k60).
+1692979210: Client mqtt_subscriber closed its connection.
+1692979229: New connection from 172.31.0.1:34891 on port 1883.
+1692979229: New client connected from 172.31.0.1:34891 as mqtt_subscriber (p2, c1, k60).
+1692979234: Client mqtt_subscriber closed its connection.
+1692979271: New connection from 172.31.0.1:49068 on port 1883.
+1692979271: New client connected from 172.31.0.1:49068 as mqtt_subscriber (p2, c1, k60).
+1692979275: Client mqtt_subscriber closed its connection.
+1692979336: New connection from 172.31.0.1:35096 on port 1883.
+1692979336: New client connected from 172.31.0.1:35096 as mqtt_subscriber (p2, c1, k60).
+1692979340: Client mqtt_subscriber closed its connection.
+1692979373: New connection from 172.31.0.1:57061 on port 1883.
+1692979373: New client connected from 172.31.0.1:57061 as mqtt_subscriber (p2, c1, k60).
+1692979375: Client mqtt_subscriber closed its connection.
+1692979386: New connection from 172.31.0.1:35073 on port 1883.
+1692979386: New client connected from 172.31.0.1:35073 as mqtt_subscriber (p2, c1, k60).
+1692979389: Client mqtt_subscriber closed its connection.
+1692979401: New connection from 172.31.0.1:46284 on port 1883.
+1692979401: New client connected from 172.31.0.1:46284 as mqtt_subscriber (p2, c1, k60).
+1692979405: Client mqtt_subscriber closed its connection.
+1692979466: New connection from 172.31.0.1:55600 on port 1883.
+1692979466: New client connected from 172.31.0.1:55600 as mqtt_subscriber (p2, c1, k60).
+1692979470: Client mqtt_subscriber closed its connection.
+1692979478: New connection from 172.31.0.1:34181 on port 1883.
+1692979478: New client connected from 172.31.0.1:34181 as mqtt_subscriber (p2, c1, k60).
+1692979495: Client mqtt_subscriber closed its connection.
+1692979531: New connection from 172.31.0.1:37262 on port 1883.
+1692979531: New client connected from 172.31.0.1:37262 as mqtt_subscriber (p2, c1, k60).
+1692979535: Client mqtt_subscriber closed its connection.
+1692979596: New connection from 172.31.0.1:36624 on port 1883.
+1692979596: New client connected from 172.31.0.1:36624 as mqtt_subscriber (p2, c1, k60).
+1692979600: Client mqtt_subscriber closed its connection.
+1692979661: New connection from 172.31.0.1:56946 on port 1883.
+1692979661: New client connected from 172.31.0.1:56946 as mqtt_subscriber (p2, c1, k60).
+1692979665: Client mqtt_subscriber closed its connection.
+1692979674: New connection from 172.31.0.1:37751 on port 1883.
+1692979674: New client connected from 172.31.0.1:37751 as mqtt_subscriber (p2, c1, k60).
+1692979726: New connection from 172.31.0.1:60292 on port 1883.
+1692979726: Client mqtt_subscriber already connected, closing old connection.
+1692979726: New client connected from 172.31.0.1:60292 as mqtt_subscriber (p2, c1, k60).
+1692979727: New connection from 172.31.0.1:37467 on port 1883.
+1692979727: Client mqtt_subscriber already connected, closing old connection.
+1692979727: New client connected from 172.31.0.1:37467 as mqtt_subscriber (p2, c1, k60).
+1692979728: New connection from 172.31.0.1:60300 on port 1883.
+1692979728: Client mqtt_subscriber already connected, closing old connection.
+1692979728: New client connected from 172.31.0.1:60300 as mqtt_subscriber (p2, c1, k60).
+1692979729: New connection from 172.31.0.1:34379 on port 1883.
+1692979729: Client mqtt_subscriber already connected, closing old connection.
+1692979729: New client connected from 172.31.0.1:34379 as mqtt_subscriber (p2, c1, k60).
+1692979730: New connection from 172.31.0.1:42332 on port 1883.
+1692979730: Client mqtt_subscriber already connected, closing old connection.
+1692979730: New client connected from 172.31.0.1:42332 as mqtt_subscriber (p2, c1, k60).
+1692979731: New connection from 172.31.0.1:55521 on port 1883.
+1692979731: Client mqtt_subscriber already connected, closing old connection.
+1692979731: New client connected from 172.31.0.1:55521 as mqtt_subscriber (p2, c1, k60).
+1692979732: New connection from 172.31.0.1:42338 on port 1883.
+1692979732: Client mqtt_subscriber already connected, closing old connection.
+1692979732: New client connected from 172.31.0.1:42338 as mqtt_subscriber (p2, c1, k60).
+1692979733: New connection from 172.31.0.1:38689 on port 1883.
+1692979733: Client mqtt_subscriber already connected, closing old connection.
+1692979733: New client connected from 172.31.0.1:38689 as mqtt_subscriber (p2, c1, k60).
+1692979734: New connection from 172.31.0.1:42344 on port 1883.
+1692979734: Client mqtt_subscriber already connected, closing old connection.
+1692979734: New client connected from 172.31.0.1:42344 as mqtt_subscriber (p2, c1, k60).
+1692979735: New connection from 172.31.0.1:52431 on port 1883.
+1692979735: Client mqtt_subscriber already connected, closing old connection.
+1692979735: New client connected from 172.31.0.1:52431 as mqtt_subscriber (p2, c1, k60).
+1692979736: New connection from 172.31.0.1:42350 on port 1883.
+1692979736: Client mqtt_subscriber already connected, closing old connection.
+1692979736: New client connected from 172.31.0.1:42350 as mqtt_subscriber (p2, c1, k60).
+1692979737: New connection from 172.31.0.1:44931 on port 1883.
+1692979737: Client mqtt_subscriber already connected, closing old connection.
+1692979737: New client connected from 172.31.0.1:44931 as mqtt_subscriber (p2, c1, k60).
+1692979738: New connection from 172.31.0.1:42352 on port 1883.
+1692979738: Client mqtt_subscriber already connected, closing old connection.
+1692979738: New client connected from 172.31.0.1:42352 as mqtt_subscriber (p2, c1, k60).
+1692979739: New connection from 172.31.0.1:35541 on port 1883.
+1692979739: Client mqtt_subscriber already connected, closing old connection.
+1692979739: New client connected from 172.31.0.1:35541 as mqtt_subscriber (p2, c1, k60).
+1692979740: New connection from 172.31.0.1:33076 on port 1883.
+1692979740: Client mqtt_subscriber already connected, closing old connection.
+1692979740: New client connected from 172.31.0.1:33076 as mqtt_subscriber (p2, c1, k60).
+1692979741: New connection from 172.31.0.1:43175 on port 1883.
+1692979741: Client mqtt_subscriber already connected, closing old connection.
+1692979741: New client connected from 172.31.0.1:43175 as mqtt_subscriber (p2, c1, k60).
+1692979742: New connection from 172.31.0.1:33082 on port 1883.
+1692979742: Client mqtt_subscriber already connected, closing old connection.
+1692979742: New client connected from 172.31.0.1:33082 as mqtt_subscriber (p2, c1, k60).
+1692979743: New connection from 172.31.0.1:40805 on port 1883.
+1692979743: Client mqtt_subscriber already connected, closing old connection.
+1692979743: New client connected from 172.31.0.1:40805 as mqtt_subscriber (p2, c1, k60).
+1692979744: New connection from 172.31.0.1:33094 on port 1883.
+1692979744: Client mqtt_subscriber already connected, closing old connection.
+1692979744: New client connected from 172.31.0.1:33094 as mqtt_subscriber (p2, c1, k60).
+1692979792: New connection from 172.31.0.1:34753 on port 1883.
+1692979792: Client mqtt_subscriber already connected, closing old connection.
+1692979792: New client connected from 172.31.0.1:34753 as mqtt_subscriber (p2, c1, k60).
+1692979793: New connection from 172.31.0.1:41904 on port 1883.
+1692979793: Client mqtt_subscriber already connected, closing old connection.
+1692979793: New client connected from 172.31.0.1:41904 as mqtt_subscriber (p2, c1, k60).
+1692979794: New connection from 172.31.0.1:35905 on port 1883.
+1692979794: Client mqtt_subscriber already connected, closing old connection.
+1692979794: New client connected from 172.31.0.1:35905 as mqtt_subscriber (p2, c1, k60).
+1692979795: New connection from 172.31.0.1:41908 on port 1883.
+1692979795: Client mqtt_subscriber already connected, closing old connection.
+1692979795: New client connected from 172.31.0.1:41908 as mqtt_subscriber (p2, c1, k60).
+1692979796: New connection from 172.31.0.1:49195 on port 1883.
+1692979796: Client mqtt_subscriber already connected, closing old connection.
+1692979796: New client connected from 172.31.0.1:49195 as mqtt_subscriber (p2, c1, k60).
+1692979797: New connection from 172.31.0.1:41918 on port 1883.
+1692979797: Client mqtt_subscriber already connected, closing old connection.
+1692979797: New client connected from 172.31.0.1:41918 as mqtt_subscriber (p2, c1, k60).
+1692979798: New connection from 172.31.0.1:46169 on port 1883.
+1692979798: Client mqtt_subscriber already connected, closing old connection.
+1692979798: New client connected from 172.31.0.1:46169 as mqtt_subscriber (p2, c1, k60).
+1692979799: New connection from 172.31.0.1:42734 on port 1883.
+1692979799: Client mqtt_subscriber already connected, closing old connection.
+1692979799: New client connected from 172.31.0.1:42734 as mqtt_subscriber (p2, c1, k60).
+1692979800: New connection from 172.31.0.1:40863 on port 1883.
+1692979800: Client mqtt_subscriber already connected, closing old connection.
+1692979800: New client connected from 172.31.0.1:40863 as mqtt_subscriber (p2, c1, k60).
+1692979801: New connection from 172.31.0.1:42736 on port 1883.
+1692979801: Client mqtt_subscriber already connected, closing old connection.
+1692979801: New client connected from 172.31.0.1:42736 as mqtt_subscriber (p2, c1, k60).
+1692979802: New connection from 172.31.0.1:34835 on port 1883.
+1692979802: Client mqtt_subscriber already connected, closing old connection.
+1692979802: New client connected from 172.31.0.1:34835 as mqtt_subscriber (p2, c1, k60).
+1692979803: New connection from 172.31.0.1:42746 on port 1883.
+1692979803: Client mqtt_subscriber already connected, closing old connection.
+1692979803: New client connected from 172.31.0.1:42746 as mqtt_subscriber (p2, c1, k60).
+1692979804: New connection from 172.31.0.1:44993 on port 1883.
+1692979804: Client mqtt_subscriber already connected, closing old connection.
+1692979804: New client connected from 172.31.0.1:44993 as mqtt_subscriber (p2, c1, k60).
+1692979805: New connection from 172.31.0.1:42754 on port 1883.
+1692979805: Client mqtt_subscriber already connected, closing old connection.
+1692979805: New client connected from 172.31.0.1:42754 as mqtt_subscriber (p2, c1, k60).
+1692979806: New connection from 172.31.0.1:37495 on port 1883.
+1692979806: Client mqtt_subscriber already connected, closing old connection.
+1692979806: New client connected from 172.31.0.1:37495 as mqtt_subscriber (p2, c1, k60).
+1692979807: New connection from 172.31.0.1:42766 on port 1883.
+1692979807: Client mqtt_subscriber already connected, closing old connection.
+1692979807: New client connected from 172.31.0.1:42766 as mqtt_subscriber (p2, c1, k60).
+1692979808: New connection from 172.31.0.1:59741 on port 1883.
+1692979808: Client mqtt_subscriber already connected, closing old connection.
+1692979808: New client connected from 172.31.0.1:59741 as mqtt_subscriber (p2, c1, k60).
+1692979809: New connection from 172.31.0.1:43684 on port 1883.
+1692979809: Client mqtt_subscriber already connected, closing old connection.
+1692979809: New client connected from 172.31.0.1:43684 as mqtt_subscriber (p2, c1, k60).
+1692979810: New connection from 172.31.0.1:38471 on port 1883.
+1692979810: Client mqtt_subscriber already connected, closing old connection.
+1692979810: New client connected from 172.31.0.1:38471 as mqtt_subscriber (p2, c1, k60).
+1692979811: New connection from 172.31.0.1:43686 on port 1883.
+1692979811: Client mqtt_subscriber already connected, closing old connection.
+1692979811: New client connected from 172.31.0.1:43686 as mqtt_subscriber (p2, c1, k60).
+1692979812: New connection from 172.31.0.1:39503 on port 1883.
+1692979812: Client mqtt_subscriber already connected, closing old connection.
+1692979812: New client connected from 172.31.0.1:39503 as mqtt_subscriber (p2, c1, k60).
+1692979813: New connection from 172.31.0.1:43696 on port 1883.
+1692979813: Client mqtt_subscriber already connected, closing old connection.
+1692979813: New client connected from 172.31.0.1:43696 as mqtt_subscriber (p2, c1, k60).
+1692979814: New connection from 172.31.0.1:43859 on port 1883.
+1692979814: Client mqtt_subscriber already connected, closing old connection.
+1692979814: New client connected from 172.31.0.1:43859 as mqtt_subscriber (p2, c1, k60).
+1692979815: New connection from 172.31.0.1:43706 on port 1883.
+1692979815: Client mqtt_subscriber already connected, closing old connection.
+1692979815: New client connected from 172.31.0.1:43706 as mqtt_subscriber (p2, c1, k60).
+1692979816: New connection from 172.31.0.1:50671 on port 1883.
+1692979816: Client mqtt_subscriber already connected, closing old connection.
+1692979816: New client connected from 172.31.0.1:50671 as mqtt_subscriber (p2, c1, k60).
+1692979817: New connection from 172.31.0.1:43714 on port 1883.
+1692979817: Client mqtt_subscriber already connected, closing old connection.
+1692979817: New client connected from 172.31.0.1:43714 as mqtt_subscriber (p2, c1, k60).
+1692979818: New connection from 172.31.0.1:37317 on port 1883.
+1692979818: Client mqtt_subscriber already connected, closing old connection.
+1692979818: New client connected from 172.31.0.1:37317 as mqtt_subscriber (p2, c1, k60).
+1692979819: New connection from 172.31.0.1:56050 on port 1883.
+1692979819: Client mqtt_subscriber already connected, closing old connection.
+1692979819: New client connected from 172.31.0.1:56050 as mqtt_subscriber (p2, c1, k60).
+1692979820: New connection from 172.31.0.1:45417 on port 1883.
+1692979820: Client mqtt_subscriber already connected, closing old connection.
+1692979820: New client connected from 172.31.0.1:45417 as mqtt_subscriber (p2, c1, k60).
+1692979821: New connection from 172.31.0.1:56060 on port 1883.
+1692979821: Client mqtt_subscriber already connected, closing old connection.
+1692979821: New client connected from 172.31.0.1:56060 as mqtt_subscriber (p2, c1, k60).
+1692979822: New connection from 172.31.0.1:54355 on port 1883.
+1692979822: Client mqtt_subscriber already connected, closing old connection.
+1692979822: New client connected from 172.31.0.1:54355 as mqtt_subscriber (p2, c1, k60).
+1692979823: New connection from 172.31.0.1:56074 on port 1883.
+1692979823: Client mqtt_subscriber already connected, closing old connection.
+1692979823: New client connected from 172.31.0.1:56074 as mqtt_subscriber (p2, c1, k60).
+1692979824: New connection from 172.31.0.1:34053 on port 1883.
+1692979824: Client mqtt_subscriber already connected, closing old connection.
+1692979824: New client connected from 172.31.0.1:34053 as mqtt_subscriber (p2, c1, k60).
+1692979825: New connection from 172.31.0.1:56086 on port 1883.
+1692979825: Client mqtt_subscriber already connected, closing old connection.
+1692979825: New client connected from 172.31.0.1:56086 as mqtt_subscriber (p2, c1, k60).
+1692979826: New connection from 172.31.0.1:59723 on port 1883.
+1692979826: Client mqtt_subscriber already connected, closing old connection.
+1692979826: New client connected from 172.31.0.1:59723 as mqtt_subscriber (p2, c1, k60).
+1692979827: New connection from 172.31.0.1:56098 on port 1883.
+1692979827: Client mqtt_subscriber already connected, closing old connection.
+1692979827: New client connected from 172.31.0.1:56098 as mqtt_subscriber (p2, c1, k60).
+1692979828: New connection from 172.31.0.1:57155 on port 1883.
+1692979828: Client mqtt_subscriber already connected, closing old connection.
+1692979828: New client connected from 172.31.0.1:57155 as mqtt_subscriber (p2, c1, k60).
+1692979829: New connection from 172.31.0.1:40670 on port 1883.
+1692979829: Client mqtt_subscriber already connected, closing old connection.
+1692979829: New client connected from 172.31.0.1:40670 as mqtt_subscriber (p2, c1, k60).
+1692979830: New connection from 172.31.0.1:35241 on port 1883.
+1692979830: Client mqtt_subscriber already connected, closing old connection.
+1692979830: New client connected from 172.31.0.1:35241 as mqtt_subscriber (p2, c1, k60).
+1692979831: New connection from 172.31.0.1:40680 on port 1883.
+1692979831: Client mqtt_subscriber already connected, closing old connection.
+1692979831: New client connected from 172.31.0.1:40680 as mqtt_subscriber (p2, c1, k60).
+1692979832: New connection from 172.31.0.1:49929 on port 1883.
+1692979832: Client mqtt_subscriber already connected, closing old connection.
+1692979832: New client connected from 172.31.0.1:49929 as mqtt_subscriber (p2, c1, k60).
+1692979833: New connection from 172.31.0.1:40696 on port 1883.
+1692979833: Client mqtt_subscriber already connected, closing old connection.
+1692979833: New client connected from 172.31.0.1:40696 as mqtt_subscriber (p2, c1, k60).
+1692979834: New connection from 172.31.0.1:48807 on port 1883.
+1692979834: Client mqtt_subscriber already connected, closing old connection.
+1692979834: New client connected from 172.31.0.1:48807 as mqtt_subscriber (p2, c1, k60).
+1692979835: New connection from 172.31.0.1:40710 on port 1883.
+1692979835: Client mqtt_subscriber already connected, closing old connection.
+1692979835: New client connected from 172.31.0.1:40710 as mqtt_subscriber (p2, c1, k60).
+1692979836: New connection from 172.31.0.1:58431 on port 1883.
+1692979836: Client mqtt_subscriber already connected, closing old connection.
+1692979836: New client connected from 172.31.0.1:58431 as mqtt_subscriber (p2, c1, k60).
+1692979837: New connection from 172.31.0.1:40724 on port 1883.
+1692979837: Client mqtt_subscriber already connected, closing old connection.
+1692979837: New client connected from 172.31.0.1:40724 as mqtt_subscriber (p2, c1, k60).
+1692979838: New connection from 172.31.0.1:35363 on port 1883.
+1692979838: Client mqtt_subscriber already connected, closing old connection.
+1692979838: New client connected from 172.31.0.1:35363 as mqtt_subscriber (p2, c1, k60).
+1692979839: New connection from 172.31.0.1:32916 on port 1883.
+1692979839: Client mqtt_subscriber already connected, closing old connection.
+1692979839: New client connected from 172.31.0.1:32916 as mqtt_subscriber (p2, c1, k60).
+1692979840: New connection from 172.31.0.1:51769 on port 1883.
+1692979840: Client mqtt_subscriber already connected, closing old connection.
+1692979840: New client connected from 172.31.0.1:51769 as mqtt_subscriber (p2, c1, k60).
+1692979841: New connection from 172.31.0.1:32932 on port 1883.
+1692979841: Client mqtt_subscriber already connected, closing old connection.
+1692979841: New client connected from 172.31.0.1:32932 as mqtt_subscriber (p2, c1, k60).
+1692979842: New connection from 172.31.0.1:33049 on port 1883.
+1692979842: Client mqtt_subscriber already connected, closing old connection.
+1692979842: New client connected from 172.31.0.1:33049 as mqtt_subscriber (p2, c1, k60).
+1692979843: New connection from 172.31.0.1:32938 on port 1883.
+1692979843: Client mqtt_subscriber already connected, closing old connection.
+1692979843: New client connected from 172.31.0.1:32938 as mqtt_subscriber (p2, c1, k60).
+1692979844: New connection from 172.31.0.1:48151 on port 1883.
+1692979844: Client mqtt_subscriber already connected, closing old connection.
+1692979844: New client connected from 172.31.0.1:48151 as mqtt_subscriber (p2, c1, k60).
+1692979845: New connection from 172.31.0.1:32942 on port 1883.
+1692979845: Client mqtt_subscriber already connected, closing old connection.
+1692979845: New client connected from 172.31.0.1:32942 as mqtt_subscriber (p2, c1, k60).
+1692979846: New connection from 172.31.0.1:42969 on port 1883.
+1692979846: Client mqtt_subscriber already connected, closing old connection.
+1692979846: New client connected from 172.31.0.1:42969 as mqtt_subscriber (p2, c1, k60).
+1692979847: New connection from 172.31.0.1:32954 on port 1883.
+1692979847: Client mqtt_subscriber already connected, closing old connection.
+1692979847: New client connected from 172.31.0.1:32954 as mqtt_subscriber (p2, c1, k60).
+1692979848: New connection from 172.31.0.1:51279 on port 1883.
+1692979848: Client mqtt_subscriber already connected, closing old connection.
+1692979848: New client connected from 172.31.0.1:51279 as mqtt_subscriber (p2, c1, k60).
+1692979849: New connection from 172.31.0.1:36080 on port 1883.
+1692979849: Client mqtt_subscriber already connected, closing old connection.
+1692979849: New client connected from 172.31.0.1:36080 as mqtt_subscriber (p2, c1, k60).
+1692979850: New connection from 172.31.0.1:33839 on port 1883.
+1692979850: Client mqtt_subscriber already connected, closing old connection.
+1692979850: New client connected from 172.31.0.1:33839 as mqtt_subscriber (p2, c1, k60).
+1692979851: New connection from 172.31.0.1:36092 on port 1883.
+1692979851: Client mqtt_subscriber already connected, closing old connection.
+1692979851: New client connected from 172.31.0.1:36092 as mqtt_subscriber (p2, c1, k60).
+1692979852: New connection from 172.31.0.1:38113 on port 1883.
+1692979852: Client mqtt_subscriber already connected, closing old connection.
+1692979852: New client connected from 172.31.0.1:38113 as mqtt_subscriber (p2, c1, k60).
+1692979853: New connection from 172.31.0.1:36098 on port 1883.
+1692979853: Client mqtt_subscriber already connected, closing old connection.
+1692979853: New client connected from 172.31.0.1:36098 as mqtt_subscriber (p2, c1, k60).
+1692979854: New connection from 172.31.0.1:49741 on port 1883.
+1692979854: Client mqtt_subscriber already connected, closing old connection.
+1692979854: New client connected from 172.31.0.1:49741 as mqtt_subscriber (p2, c1, k60).
+1692979855: New connection from 172.31.0.1:36114 on port 1883.
+1692979855: Client mqtt_subscriber already connected, closing old connection.
+1692979855: New client connected from 172.31.0.1:36114 as mqtt_subscriber (p2, c1, k60).
+1692979856: New connection from 172.31.0.1:37541 on port 1883.
+1692979856: Client mqtt_subscriber already connected, closing old connection.
+1692979856: New client connected from 172.31.0.1:37541 as mqtt_subscriber (p2, c1, k60).
+1692979857: New connection from 172.31.0.1:36116 on port 1883.
+1692979857: Client mqtt_subscriber already connected, closing old connection.
+1692979857: New client connected from 172.31.0.1:36116 as mqtt_subscriber (p2, c1, k60).
+1692979858: New connection from 172.31.0.1:51513 on port 1883.
+1692979858: Client mqtt_subscriber already connected, closing old connection.
+1692979858: New client connected from 172.31.0.1:51513 as mqtt_subscriber (p2, c1, k60).
+1692979859: New connection from 172.31.0.1:44130 on port 1883.
+1692979859: Client mqtt_subscriber already connected, closing old connection.
+1692979859: New client connected from 172.31.0.1:44130 as mqtt_subscriber (p2, c1, k60).
+1692979860: New connection from 172.31.0.1:33413 on port 1883.
+1692979860: Client mqtt_subscriber already connected, closing old connection.
+1692979860: New client connected from 172.31.0.1:33413 as mqtt_subscriber (p2, c1, k60).
+1692979861: New connection from 172.31.0.1:44140 on port 1883.
+1692979861: Client mqtt_subscriber already connected, closing old connection.
+1692979861: New client connected from 172.31.0.1:44140 as mqtt_subscriber (p2, c1, k60).
+1692979862: New connection from 172.31.0.1:48717 on port 1883.
+1692979862: Client mqtt_subscriber already connected, closing old connection.
+1692979862: New client connected from 172.31.0.1:48717 as mqtt_subscriber (p2, c1, k60).
+1692979863: New connection from 172.31.0.1:44154 on port 1883.
+1692979863: Client mqtt_subscriber already connected, closing old connection.
+1692979863: New client connected from 172.31.0.1:44154 as mqtt_subscriber (p2, c1, k60).
+1692979864: New connection from 172.31.0.1:60211 on port 1883.
+1692979864: Client mqtt_subscriber already connected, closing old connection.
+1692979864: New client connected from 172.31.0.1:60211 as mqtt_subscriber (p2, c1, k60).
+1692979865: Client mqtt_subscriber closed its connection.
+1692979865: New connection from 172.31.0.1:44160 on port 1883.
+1692979865: New client connected from 172.31.0.1:44160 as mqtt_subscriber (p2, c1, k60).
+1692979872: New connection from 172.31.0.1:54831 on port 1883.
+1692979872: Client mqtt_subscriber already connected, closing old connection.
+1692979872: New client connected from 172.31.0.1:54831 as mqtt_subscriber (p2, c1, k60).
+1692979873: New connection from 172.31.0.1:54206 on port 1883.
+1692979873: Client mqtt_subscriber already connected, closing old connection.
+1692979873: New client connected from 172.31.0.1:54206 as mqtt_subscriber (p2, c1, k60).
+1692979874: New connection from 172.31.0.1:55985 on port 1883.
+1692979874: Client mqtt_subscriber already connected, closing old connection.
+1692979874: New client connected from 172.31.0.1:55985 as mqtt_subscriber (p2, c1, k60).
+1692979875: New connection from 172.31.0.1:54218 on port 1883.
+1692979875: Client mqtt_subscriber already connected, closing old connection.
+1692979875: New client connected from 172.31.0.1:54218 as mqtt_subscriber (p2, c1, k60).
+1692979876: New connection from 172.31.0.1:45559 on port 1883.
+1692979876: Client mqtt_subscriber already connected, closing old connection.
+1692979876: New client connected from 172.31.0.1:45559 as mqtt_subscriber (p2, c1, k60).
+1692979877: New connection from 172.31.0.1:54230 on port 1883.
+1692979877: Client mqtt_subscriber already connected, closing old connection.
+1692979877: New client connected from 172.31.0.1:54230 as mqtt_subscriber (p2, c1, k60).
+1692979878: New connection from 172.31.0.1:59357 on port 1883.
+1692979878: Client mqtt_subscriber already connected, closing old connection.
+1692979878: New client connected from 172.31.0.1:59357 as mqtt_subscriber (p2, c1, k60).
+1692979879: New connection from 172.31.0.1:46650 on port 1883.
+1692979879: Client mqtt_subscriber already connected, closing old connection.
+1692979879: New client connected from 172.31.0.1:46650 as mqtt_subscriber (p2, c1, k60).
+1692979880: New connection from 172.31.0.1:57145 on port 1883.
+1692979880: Client mqtt_subscriber already connected, closing old connection.
+1692979880: New client connected from 172.31.0.1:57145 as mqtt_subscriber (p2, c1, k60).
+1692979881: New connection from 172.31.0.1:46658 on port 1883.
+1692979881: Client mqtt_subscriber already connected, closing old connection.
+1692979881: New client connected from 172.31.0.1:46658 as mqtt_subscriber (p2, c1, k60).
+1692979882: New connection from 172.31.0.1:50291 on port 1883.
+1692979882: Client mqtt_subscriber already connected, closing old connection.
+1692979882: New client connected from 172.31.0.1:50291 as mqtt_subscriber (p2, c1, k60).
+1692979883: New connection from 172.31.0.1:46672 on port 1883.
+1692979883: Client mqtt_subscriber already connected, closing old connection.
+1692979883: New client connected from 172.31.0.1:46672 as mqtt_subscriber (p2, c1, k60).
+1692979884: New connection from 172.31.0.1:53233 on port 1883.
+1692979884: Client mqtt_subscriber already connected, closing old connection.
+1692979884: New client connected from 172.31.0.1:53233 as mqtt_subscriber (p2, c1, k60).
+1692979885: New connection from 172.31.0.1:46680 on port 1883.
+1692979885: Client mqtt_subscriber already connected, closing old connection.
+1692979885: New client connected from 172.31.0.1:46680 as mqtt_subscriber (p2, c1, k60).
+1692979886: New connection from 172.31.0.1:50461 on port 1883.
+1692979886: Client mqtt_subscriber already connected, closing old connection.
+1692979886: New client connected from 172.31.0.1:50461 as mqtt_subscriber (p2, c1, k60).
+1692979887: New connection from 172.31.0.1:46684 on port 1883.
+1692979887: Client mqtt_subscriber already connected, closing old connection.
+1692979887: New client connected from 172.31.0.1:46684 as mqtt_subscriber (p2, c1, k60).
+1692979888: New connection from 172.31.0.1:36509 on port 1883.
+1692979888: Client mqtt_subscriber already connected, closing old connection.
+1692979888: New client connected from 172.31.0.1:36509 as mqtt_subscriber (p2, c1, k60).
+1692979889: New connection from 172.31.0.1:51736 on port 1883.
+1692979889: Client mqtt_subscriber already connected, closing old connection.
+1692979889: New client connected from 172.31.0.1:51736 as mqtt_subscriber (p2, c1, k60).
+1692979890: New connection from 172.31.0.1:49475 on port 1883.
+1692979890: Client mqtt_subscriber already connected, closing old connection.
+1692979890: New client connected from 172.31.0.1:49475 as mqtt_subscriber (p2, c1, k60).
+1692979891: New connection from 172.31.0.1:51738 on port 1883.
+1692979891: Client mqtt_subscriber already connected, closing old connection.
+1692979891: New client connected from 172.31.0.1:51738 as mqtt_subscriber (p2, c1, k60).
+1692979892: New connection from 172.31.0.1:43451 on port 1883.
+1692979892: Client mqtt_subscriber already connected, closing old connection.
+1692979892: New client connected from 172.31.0.1:43451 as mqtt_subscriber (p2, c1, k60).
+1692979893: New connection from 172.31.0.1:51744 on port 1883.
+1692979893: Client mqtt_subscriber already connected, closing old connection.
+1692979893: New client connected from 172.31.0.1:51744 as mqtt_subscriber (p2, c1, k60).
+1692979894: New connection from 172.31.0.1:59125 on port 1883.
+1692979894: Client mqtt_subscriber already connected, closing old connection.
+1692979894: New client connected from 172.31.0.1:59125 as mqtt_subscriber (p2, c1, k60).
+1692979895: New connection from 172.31.0.1:51748 on port 1883.
+1692979895: Client mqtt_subscriber already connected, closing old connection.
+1692979895: New client connected from 172.31.0.1:51748 as mqtt_subscriber (p2, c1, k60).
+1692979919: New connection from 172.31.0.1:49578 on port 1883.
+1692979919: New client connected from 172.31.0.1:49578 as mqttx_c6513081 (p5, c1, k60).
+1692979964: Client mqttx_c6513081 disconnected.
+1692980034: mosquitto version 2.0.17 terminating
+1692980075: mosquitto version 2.0.17 starting
+1692980075: Config loaded from /mosquitto/config/mosquitto.conf.
+1692980075: Opening ipv4 listen socket on port 1883.
+1692980075: Opening ipv6 listen socket on port 1883.
+1692980075: mosquitto version 2.0.17 running
+1692980076: New connection from 172.31.0.1:55246 on port 1883.
+1692980076: New connection from 172.31.0.1:55248 on port 1883.
+1692980076: New client connected from 172.31.0.1:55248 as mqtt_subscriber (p2, c1, k60).
+1692980076: New client connected from 172.31.0.1:55246 as sensor_simulator (p2, c1, k60).
+1692980113: New connection from 172.31.0.1:49513 on port 1883.
+1692980113: Client mqtt_subscriber already connected, closing old connection.
+1692980113: New client connected from 172.31.0.1:49513 as mqtt_subscriber (p2, c1, k60).
+1692980114: New connection from 172.31.0.1:40318 on port 1883.
+1692980114: Client mqtt_subscriber already connected, closing old connection.
+1692980114: New client connected from 172.31.0.1:40318 as mqtt_subscriber (p2, c1, k60).
+1692980115: New connection from 172.31.0.1:54327 on port 1883.
+1692980115: Client mqtt_subscriber already connected, closing old connection.
+1692980115: New client connected from 172.31.0.1:54327 as mqtt_subscriber (p2, c1, k60).
+1692980116: New connection from 172.31.0.1:40334 on port 1883.
+1692980116: Client mqtt_subscriber already connected, closing old connection.
+1692980116: New client connected from 172.31.0.1:40334 as mqtt_subscriber (p2, c1, k60).
+1692980117: New connection from 172.31.0.1:46701 on port 1883.
+1692980117: Client mqtt_subscriber already connected, closing old connection.
+1692980117: New client connected from 172.31.0.1:46701 as mqtt_subscriber (p2, c1, k60).
+1692980118: New connection from 172.31.0.1:40340 on port 1883.
+1692980118: Client mqtt_subscriber already connected, closing old connection.
+1692980118: New client connected from 172.31.0.1:40340 as mqtt_subscriber (p2, c1, k60).
+1692980119: New connection from 172.31.0.1:46259 on port 1883.
+1692980119: Client mqtt_subscriber already connected, closing old connection.
+1692980119: New client connected from 172.31.0.1:46259 as mqtt_subscriber (p2, c1, k60).
+1692980120: New connection from 172.31.0.1:49878 on port 1883.
+1692980120: Client mqtt_subscriber already connected, closing old connection.
+1692980120: New client connected from 172.31.0.1:49878 as mqtt_subscriber (p2, c1, k60).
+1692980121: New connection from 172.31.0.1:37559 on port 1883.
+1692980121: Client mqtt_subscriber already connected, closing old connection.
+1692980121: New client connected from 172.31.0.1:37559 as mqtt_subscriber (p2, c1, k60).
+1692980122: New connection from 172.31.0.1:49890 on port 1883.
+1692980122: Client mqtt_subscriber already connected, closing old connection.
+1692980122: New client connected from 172.31.0.1:49890 as mqtt_subscriber (p2, c1, k60).
+1692980123: New connection from 172.31.0.1:40601 on port 1883.
+1692980123: Client mqtt_subscriber already connected, closing old connection.
+1692980123: New client connected from 172.31.0.1:40601 as mqtt_subscriber (p2, c1, k60).
+1692980124: New connection from 172.31.0.1:49892 on port 1883.
+1692980124: Client mqtt_subscriber already connected, closing old connection.
+1692980124: New client connected from 172.31.0.1:49892 as mqtt_subscriber (p2, c1, k60).
+1692980125: New connection from 172.31.0.1:52035 on port 1883.
+1692980125: Client mqtt_subscriber already connected, closing old connection.
+1692980125: New client connected from 172.31.0.1:52035 as mqtt_subscriber (p2, c1, k60).
+1692980126: New connection from 172.31.0.1:49898 on port 1883.
+1692980126: Client mqtt_subscriber already connected, closing old connection.
+1692980126: New client connected from 172.31.0.1:49898 as mqtt_subscriber (p2, c1, k60).
+1692980127: New connection from 172.31.0.1:47691 on port 1883.
+1692980127: Client mqtt_subscriber already connected, closing old connection.
+1692980127: New client connected from 172.31.0.1:47691 as mqtt_subscriber (p2, c1, k60).
+1692980128: New connection from 172.31.0.1:49906 on port 1883.
+1692980128: Client mqtt_subscriber already connected, closing old connection.
+1692980128: New client connected from 172.31.0.1:49906 as mqtt_subscriber (p2, c1, k60).
+1692980132: New connection from 172.31.0.1:39977 on port 1883.
+1692980132: Client mqtt_subscriber already connected, closing old connection.
+1692980132: New client connected from 172.31.0.1:39977 as mqtt_subscriber (p2, c1, k60).
+1692980133: New connection from 172.31.0.1:47152 on port 1883.
+1692980133: Client mqtt_subscriber already connected, closing old connection.
+1692980133: New client connected from 172.31.0.1:47152 as mqtt_subscriber (p2, c1, k60).
+1692980134: New connection from 172.31.0.1:54181 on port 1883.
+1692980134: Client mqtt_subscriber already connected, closing old connection.
+1692980134: New client connected from 172.31.0.1:54181 as mqtt_subscriber (p2, c1, k60).
+1692980135: New connection from 172.31.0.1:47154 on port 1883.
+1692980135: Client mqtt_subscriber already connected, closing old connection.
+1692980135: New client connected from 172.31.0.1:47154 as mqtt_subscriber (p2, c1, k60).
+1692980136: New connection from 172.31.0.1:42073 on port 1883.
+1692980136: Client mqtt_subscriber already connected, closing old connection.
+1692980136: New client connected from 172.31.0.1:42073 as mqtt_subscriber (p2, c1, k60).
+1692980137: New connection from 172.31.0.1:47164 on port 1883.
+1692980137: Client mqtt_subscriber already connected, closing old connection.
+1692980137: New client connected from 172.31.0.1:47164 as mqtt_subscriber (p2, c1, k60).
+1692980138: New connection from 172.31.0.1:58719 on port 1883.
+1692980138: Client mqtt_subscriber already connected, closing old connection.
+1692980138: New client connected from 172.31.0.1:58719 as mqtt_subscriber (p2, c1, k60).
+1692980139: New connection from 172.31.0.1:59538 on port 1883.
+1692980139: Client mqtt_subscriber already connected, closing old connection.
+1692980139: New client connected from 172.31.0.1:59538 as mqtt_subscriber (p2, c1, k60).
+1692980140: New connection from 172.31.0.1:46985 on port 1883.
+1692980140: Client mqtt_subscriber already connected, closing old connection.
+1692980140: New client connected from 172.31.0.1:46985 as mqtt_subscriber (p2, c1, k60).
+1692980141: New connection from 172.31.0.1:59548 on port 1883.
+1692980141: Client mqtt_subscriber already connected, closing old connection.
+1692980141: New client connected from 172.31.0.1:59548 as mqtt_subscriber (p2, c1, k60).
+1692980142: New connection from 172.31.0.1:58655 on port 1883.
+1692980142: Client mqtt_subscriber already connected, closing old connection.
+1692980142: New client connected from 172.31.0.1:58655 as mqtt_subscriber (p2, c1, k60).
+1692980143: New connection from 172.31.0.1:59564 on port 1883.
+1692980143: Client mqtt_subscriber already connected, closing old connection.
+1692980143: New client connected from 172.31.0.1:59564 as mqtt_subscriber (p2, c1, k60).
+1692980144: New connection from 172.31.0.1:51307 on port 1883.
+1692980144: Client mqtt_subscriber already connected, closing old connection.
+1692980144: New client connected from 172.31.0.1:51307 as mqtt_subscriber (p2, c1, k60).
+1692980145: New connection from 172.31.0.1:59566 on port 1883.
+1692980145: Client mqtt_subscriber already connected, closing old connection.
+1692980145: New client connected from 172.31.0.1:59566 as mqtt_subscriber (p2, c1, k60).
+1692980146: New connection from 172.31.0.1:53177 on port 1883.
+1692980146: Client mqtt_subscriber already connected, closing old connection.
+1692980146: New client connected from 172.31.0.1:53177 as mqtt_subscriber (p2, c1, k60).
+1692980147: New connection from 172.31.0.1:59570 on port 1883.
+1692980147: Client mqtt_subscriber already connected, closing old connection.
+1692980147: New client connected from 172.31.0.1:59570 as mqtt_subscriber (p2, c1, k60).
+1692980148: New connection from 172.31.0.1:35421 on port 1883.
+1692980148: Client mqtt_subscriber already connected, closing old connection.
+1692980148: New client connected from 172.31.0.1:35421 as mqtt_subscriber (p2, c1, k60).
+1692980149: New connection from 172.31.0.1:44980 on port 1883.
+1692980149: Client mqtt_subscriber already connected, closing old connection.
+1692980149: New client connected from 172.31.0.1:44980 as mqtt_subscriber (p2, c1, k60).
+1692980150: New connection from 172.31.0.1:45353 on port 1883.
+1692980150: Client mqtt_subscriber already connected, closing old connection.
+1692980150: New client connected from 172.31.0.1:45353 as mqtt_subscriber (p2, c1, k60).
+1692980151: New connection from 172.31.0.1:44984 on port 1883.
+1692980151: Client mqtt_subscriber already connected, closing old connection.
+1692980151: New client connected from 172.31.0.1:44984 as mqtt_subscriber (p2, c1, k60).
+1692980152: New connection from 172.31.0.1:36073 on port 1883.
+1692980152: Client mqtt_subscriber already connected, closing old connection.
+1692980152: New client connected from 172.31.0.1:36073 as mqtt_subscriber (p2, c1, k60).
+1692980153: New connection from 172.31.0.1:45000 on port 1883.
+1692980153: Client mqtt_subscriber already connected, closing old connection.
+1692980153: New client connected from 172.31.0.1:45000 as mqtt_subscriber (p2, c1, k60).
+1692980686: New connection from 172.31.0.1:43615 on port 1883.
+1692980686: Client mqtt_subscriber already connected, closing old connection.
+1692980686: New client connected from 172.31.0.1:43615 as mqtt_subscriber (p2, c1, k60).
+1692980687: New connection from 172.31.0.1:37532 on port 1883.
+1692980687: Client mqtt_subscriber already connected, closing old connection.
+1692980687: New client connected from 172.31.0.1:37532 as mqtt_subscriber (p2, c1, k60).
+1692980688: New connection from 172.31.0.1:38219 on port 1883.
+1692980688: Client mqtt_subscriber already connected, closing old connection.
+1692980688: New client connected from 172.31.0.1:38219 as mqtt_subscriber (p2, c1, k60).
+1692980689: New connection from 172.31.0.1:37540 on port 1883.
+1692980689: Client mqtt_subscriber already connected, closing old connection.
+1692980689: New client connected from 172.31.0.1:37540 as mqtt_subscriber (p2, c1, k60).
+1692980690: New connection from 172.31.0.1:56875 on port 1883.
+1692980690: Client mqtt_subscriber already connected, closing old connection.
+1692980690: New client connected from 172.31.0.1:56875 as mqtt_subscriber (p2, c1, k60).
+1692980691: New connection from 172.31.0.1:40962 on port 1883.
+1692980691: Client mqtt_subscriber already connected, closing old connection.
+1692980691: New client connected from 172.31.0.1:40962 as mqtt_subscriber (p2, c1, k60).
+1692980692: New connection from 172.31.0.1:39421 on port 1883.
+1692980692: Client mqtt_subscriber already connected, closing old connection.
+1692980692: New client connected from 172.31.0.1:39421 as mqtt_subscriber (p2, c1, k60).
+1692980693: New connection from 172.31.0.1:40970 on port 1883.
+1692980693: Client mqtt_subscriber already connected, closing old connection.
+1692980693: New client connected from 172.31.0.1:40970 as mqtt_subscriber (p2, c1, k60).
+1692980694: New connection from 172.31.0.1:41321 on port 1883.
+1692980694: Client mqtt_subscriber already connected, closing old connection.
+1692980694: New client connected from 172.31.0.1:41321 as mqtt_subscriber (p2, c1, k60).
+1692980695: New connection from 172.31.0.1:40974 on port 1883.
+1692980695: Client mqtt_subscriber already connected, closing old connection.
+1692980695: New client connected from 172.31.0.1:40974 as mqtt_subscriber (p2, c1, k60).
+1692980696: New connection from 172.31.0.1:52347 on port 1883.
+1692980696: Client mqtt_subscriber already connected, closing old connection.
+1692980696: New client connected from 172.31.0.1:52347 as mqtt_subscriber (p2, c1, k60).
+1692980697: New connection from 172.31.0.1:40976 on port 1883.
+1692980697: Client mqtt_subscriber already connected, closing old connection.
+1692980697: New client connected from 172.31.0.1:40976 as mqtt_subscriber (p2, c1, k60).
+1692980698: New connection from 172.31.0.1:36963 on port 1883.
+1692980698: Client mqtt_subscriber already connected, closing old connection.
+1692980698: New client connected from 172.31.0.1:36963 as mqtt_subscriber (p2, c1, k60).
+1692980699: New connection from 172.31.0.1:40992 on port 1883.
+1692980699: Client mqtt_subscriber already connected, closing old connection.
+1692980699: New client connected from 172.31.0.1:40992 as mqtt_subscriber (p2, c1, k60).
+1692980700: New connection from 172.31.0.1:57779 on port 1883.
+1692980700: Client mqtt_subscriber already connected, closing old connection.
+1692980700: New client connected from 172.31.0.1:57779 as mqtt_subscriber (p2, c1, k60).
+1692980701: New connection from 172.31.0.1:36258 on port 1883.
+1692980701: Client mqtt_subscriber already connected, closing old connection.
+1692980701: New client connected from 172.31.0.1:36258 as mqtt_subscriber (p2, c1, k60).
+1692980702: New connection from 172.31.0.1:44141 on port 1883.
+1692980702: Client mqtt_subscriber already connected, closing old connection.
+1692980702: New client connected from 172.31.0.1:44141 as mqtt_subscriber (p2, c1, k60).
+1692980703: New connection from 172.31.0.1:36260 on port 1883.
+1692980703: Client mqtt_subscriber already connected, closing old connection.
+1692980703: New client connected from 172.31.0.1:36260 as mqtt_subscriber (p2, c1, k60).
+1692980704: New connection from 172.31.0.1:38995 on port 1883.
+1692980704: Client mqtt_subscriber already connected, closing old connection.
+1692980704: New client connected from 172.31.0.1:38995 as mqtt_subscriber (p2, c1, k60).
+1692980705: New connection from 172.31.0.1:36270 on port 1883.
+1692980705: Client mqtt_subscriber already connected, closing old connection.
+1692980705: New client connected from 172.31.0.1:36270 as mqtt_subscriber (p2, c1, k60).
+1692980706: New connection from 172.31.0.1:32819 on port 1883.
+1692980706: Client mqtt_subscriber already connected, closing old connection.
+1692980706: New client connected from 172.31.0.1:32819 as mqtt_subscriber (p2, c1, k60).
+1692980707: New connection from 172.31.0.1:36284 on port 1883.
+1692980707: Client mqtt_subscriber already connected, closing old connection.
+1692980707: New client connected from 172.31.0.1:36284 as mqtt_subscriber (p2, c1, k60).
+1692980708: New connection from 172.31.0.1:49457 on port 1883.
+1692980708: Client mqtt_subscriber already connected, closing old connection.
+1692980708: New client connected from 172.31.0.1:49457 as mqtt_subscriber (p2, c1, k60).
+1692980709: New connection from 172.31.0.1:36288 on port 1883.
+1692980709: Client mqtt_subscriber already connected, closing old connection.
+1692980709: New client connected from 172.31.0.1:36288 as mqtt_subscriber (p2, c1, k60).
+1692980710: New connection from 172.31.0.1:44001 on port 1883.
+1692980710: Client mqtt_subscriber already connected, closing old connection.
+1692980710: New client connected from 172.31.0.1:44001 as mqtt_subscriber (p2, c1, k60).
+1692980711: New connection from 172.31.0.1:54036 on port 1883.
+1692980711: Client mqtt_subscriber already connected, closing old connection.
+1692980711: New client connected from 172.31.0.1:54036 as mqtt_subscriber (p2, c1, k60).
+1692980712: New connection from 172.31.0.1:44609 on port 1883.
+1692980712: Client mqtt_subscriber already connected, closing old connection.
+1692980712: New client connected from 172.31.0.1:44609 as mqtt_subscriber (p2, c1, k60).
+1692980713: New connection from 172.31.0.1:54050 on port 1883.
+1692980713: Client mqtt_subscriber already connected, closing old connection.
+1692980713: New client connected from 172.31.0.1:54050 as mqtt_subscriber (p2, c1, k60).
+1692980714: New connection from 172.31.0.1:60433 on port 1883.
+1692980714: Client mqtt_subscriber already connected, closing old connection.
+1692980714: New client connected from 172.31.0.1:60433 as mqtt_subscriber (p2, c1, k60).
+1692980715: New connection from 172.31.0.1:54062 on port 1883.
+1692980715: Client mqtt_subscriber already connected, closing old connection.
+1692980715: New client connected from 172.31.0.1:54062 as mqtt_subscriber (p2, c1, k60).
+1692980718: New connection from 172.31.0.1:41967 on port 1883.
+1692980718: Client mqtt_subscriber already connected, closing old connection.
+1692980718: New client connected from 172.31.0.1:41967 as mqtt_subscriber (p2, c1, k60).
+1692980719: New connection from 172.31.0.1:49088 on port 1883.
+1692980719: Client mqtt_subscriber already connected, closing old connection.
+1692980719: New client connected from 172.31.0.1:49088 as mqtt_subscriber (p2, c1, k60).
+1692980720: New connection from 172.31.0.1:45275 on port 1883.
+1692980720: Client mqtt_subscriber already connected, closing old connection.
+1692980720: New client connected from 172.31.0.1:45275 as mqtt_subscriber (p2, c1, k60).
+1692980721: New connection from 172.31.0.1:49090 on port 1883.
+1692980721: Client mqtt_subscriber already connected, closing old connection.
+1692980721: New client connected from 172.31.0.1:49090 as mqtt_subscriber (p2, c1, k60).
+1692980722: New connection from 172.31.0.1:44141 on port 1883.
+1692980722: Client mqtt_subscriber already connected, closing old connection.
+1692980722: New client connected from 172.31.0.1:44141 as mqtt_subscriber (p2, c1, k60).
+1692980723: New connection from 172.31.0.1:49092 on port 1883.
+1692980723: Client mqtt_subscriber already connected, closing old connection.
+1692980723: New client connected from 172.31.0.1:49092 as mqtt_subscriber (p2, c1, k60).
+1692980724: New connection from 172.31.0.1:38385 on port 1883.
+1692980724: Client mqtt_subscriber already connected, closing old connection.
+1692980724: New client connected from 172.31.0.1:38385 as mqtt_subscriber (p2, c1, k60).
+1692980725: New connection from 172.31.0.1:49098 on port 1883.
+1692980725: Client mqtt_subscriber already connected, closing old connection.
+1692980725: New client connected from 172.31.0.1:49098 as mqtt_subscriber (p2, c1, k60).
+1692980726: New connection from 172.31.0.1:44499 on port 1883.
+1692980726: Client mqtt_subscriber already connected, closing old connection.
+1692980726: New client connected from 172.31.0.1:44499 as mqtt_subscriber (p2, c1, k60).
+1692980727: New connection from 172.31.0.1:49100 on port 1883.
+1692980727: Client mqtt_subscriber already connected, closing old connection.
+1692980727: New client connected from 172.31.0.1:49100 as mqtt_subscriber (p2, c1, k60).
+1692980728: New connection from 172.31.0.1:46623 on port 1883.
+1692980728: Client mqtt_subscriber already connected, closing old connection.
+1692980728: New client connected from 172.31.0.1:46623 as mqtt_subscriber (p2, c1, k60).
+1692980729: New connection from 172.31.0.1:45764 on port 1883.
+1692980729: Client mqtt_subscriber already connected, closing old connection.
+1692980729: New client connected from 172.31.0.1:45764 as mqtt_subscriber (p2, c1, k60).
+1692980730: New connection from 172.31.0.1:36697 on port 1883.
+1692980730: Client mqtt_subscriber already connected, closing old connection.
+1692980730: New client connected from 172.31.0.1:36697 as mqtt_subscriber (p2, c1, k60).
+1692980731: New connection from 172.31.0.1:45768 on port 1883.
+1692980731: Client mqtt_subscriber already connected, closing old connection.
+1692980731: New client connected from 172.31.0.1:45768 as mqtt_subscriber (p2, c1, k60).
+1692980732: New connection from 172.31.0.1:35199 on port 1883.
+1692980732: Client mqtt_subscriber already connected, closing old connection.
+1692980732: New client connected from 172.31.0.1:35199 as mqtt_subscriber (p2, c1, k60).
+1692980733: New connection from 172.31.0.1:45778 on port 1883.
+1692980733: Client mqtt_subscriber already connected, closing old connection.
+1692980733: New client connected from 172.31.0.1:45778 as mqtt_subscriber (p2, c1, k60).
+1692980734: New connection from 172.31.0.1:48133 on port 1883.
+1692980734: Client mqtt_subscriber already connected, closing old connection.
+1692980734: New client connected from 172.31.0.1:48133 as mqtt_subscriber (p2, c1, k60).
+1692980735: New connection from 172.31.0.1:45788 on port 1883.
+1692980735: Client mqtt_subscriber already connected, closing old connection.
+1692980735: New client connected from 172.31.0.1:45788 as mqtt_subscriber (p2, c1, k60).
+1692980736: New connection from 172.31.0.1:41705 on port 1883.
+1692980736: Client mqtt_subscriber already connected, closing old connection.
+1692980736: New client connected from 172.31.0.1:41705 as mqtt_subscriber (p2, c1, k60).
+1692980737: New connection from 172.31.0.1:45794 on port 1883.
+1692980737: Client mqtt_subscriber already connected, closing old connection.
+1692980737: New client connected from 172.31.0.1:45794 as mqtt_subscriber (p2, c1, k60).
+1692980738: New connection from 172.31.0.1:46775 on port 1883.
+1692980738: Client mqtt_subscriber already connected, closing old connection.
+1692980738: New client connected from 172.31.0.1:46775 as mqtt_subscriber (p2, c1, k60).
+1692980739: New connection from 172.31.0.1:34246 on port 1883.
+1692980739: Client mqtt_subscriber already connected, closing old connection.
+1692980739: New client connected from 172.31.0.1:34246 as mqtt_subscriber (p2, c1, k60).
+1692980740: New connection from 172.31.0.1:52795 on port 1883.
+1692980740: Client mqtt_subscriber already connected, closing old connection.
+1692980740: New client connected from 172.31.0.1:52795 as mqtt_subscriber (p2, c1, k60).
+1692980741: New connection from 172.31.0.1:34262 on port 1883.
+1692980741: Client mqtt_subscriber already connected, closing old connection.
+1692980741: New client connected from 172.31.0.1:34262 as mqtt_subscriber (p2, c1, k60).
+1692980742: New connection from 172.31.0.1:55697 on port 1883.
+1692980742: Client mqtt_subscriber already connected, closing old connection.
+1692980742: New client connected from 172.31.0.1:55697 as mqtt_subscriber (p2, c1, k60).
+1692980743: New connection from 172.31.0.1:34278 on port 1883.
+1692980743: Client mqtt_subscriber already connected, closing old connection.
+1692980743: New client connected from 172.31.0.1:34278 as mqtt_subscriber (p2, c1, k60).
+1692980744: New connection from 172.31.0.1:42945 on port 1883.
+1692980744: Client mqtt_subscriber already connected, closing old connection.
+1692980744: New client connected from 172.31.0.1:42945 as mqtt_subscriber (p2, c1, k60).
+1692980745: New connection from 172.31.0.1:34290 on port 1883.
+1692980745: Client mqtt_subscriber already connected, closing old connection.
+1692980745: New client connected from 172.31.0.1:34290 as mqtt_subscriber (p2, c1, k60).
+1692980746: New connection from 172.31.0.1:36515 on port 1883.
+1692980746: Client mqtt_subscriber already connected, closing old connection.
+1692980746: New client connected from 172.31.0.1:36515 as mqtt_subscriber (p2, c1, k60).
+1692980747: New connection from 172.31.0.1:34292 on port 1883.
+1692980747: Client mqtt_subscriber already connected, closing old connection.
+1692980747: New client connected from 172.31.0.1:34292 as mqtt_subscriber (p2, c1, k60).
+1692980748: New connection from 172.31.0.1:51873 on port 1883.
+1692980748: Client mqtt_subscriber already connected, closing old connection.
+1692980748: New client connected from 172.31.0.1:51873 as mqtt_subscriber (p2, c1, k60).
+1692980749: New connection from 172.31.0.1:51254 on port 1883.
+1692980749: Client mqtt_subscriber already connected, closing old connection.
+1692980749: New client connected from 172.31.0.1:51254 as mqtt_subscriber (p2, c1, k60).
+1692980750: New connection from 172.31.0.1:54609 on port 1883.
+1692980750: Client mqtt_subscriber already connected, closing old connection.
+1692980750: New client connected from 172.31.0.1:54609 as mqtt_subscriber (p2, c1, k60).
+1692980751: New connection from 172.31.0.1:51260 on port 1883.
+1692980751: Client mqtt_subscriber already connected, closing old connection.
+1692980751: New client connected from 172.31.0.1:51260 as mqtt_subscriber (p2, c1, k60).
+1692980752: New connection from 172.31.0.1:45093 on port 1883.
+1692980752: Client mqtt_subscriber already connected, closing old connection.
+1692980752: New client connected from 172.31.0.1:45093 as mqtt_subscriber (p2, c1, k60).
+1692980753: New connection from 172.31.0.1:51264 on port 1883.
+1692980753: Client mqtt_subscriber already connected, closing old connection.
+1692980753: New client connected from 172.31.0.1:51264 as mqtt_subscriber (p2, c1, k60).
+1692980754: New connection from 172.31.0.1:48971 on port 1883.
+1692980754: Client mqtt_subscriber already connected, closing old connection.
+1692980754: New client connected from 172.31.0.1:48971 as mqtt_subscriber (p2, c1, k60).
+1692980755: mosquitto version 2.0.17 terminating
+1692980833: mosquitto version 2.0.17 starting
+1692980833: Config loaded from /mosquitto/config/mosquitto.conf.
+1692980833: Opening ipv4 listen socket on port 1883.
+1692980833: Opening ipv6 listen socket on port 1883.
+1692980833: mosquitto version 2.0.17 running
+1692980833: New connection from 172.31.0.1:54742 on port 1883.
+1692980833: New client connected from 172.31.0.1:54742 as mqtt_subscriber (p2, c1, k60).
+1692980833: New connection from 172.31.0.1:54758 on port 1883.
+1692980833: New client connected from 172.31.0.1:54758 as sensor_simulator (p2, c1, k60).
+1692980835: mosquitto version 2.0.17 terminating
+1692980871: mosquitto version 2.0.17 starting
+1692980871: Config loaded from /mosquitto/config/mosquitto.conf.
+1692980871: Opening ipv4 listen socket on port 1883.
+1692980871: Opening ipv6 listen socket on port 1883.
+1692980871: mosquitto version 2.0.17 running
+1692980875: New connection from 172.31.0.1:57314 on port 1883.
+1692980875: New client connected from 172.31.0.1:57314 as sensor_simulator (p2, c1, k60).
+1692980882: New connection from 172.31.0.1:33963 on port 1883.
+1692980882: New client connected from 172.31.0.1:33963 as mqtt_subscriber (p2, c1, k60).
+1692980932: New connection from 172.31.0.1:42816 on port 1883.
+1692980932: New client connected from 172.31.0.1:42816 as mqttx_c6513081 (p5, c1, k60).
+1692980947: Client mqttx_c6513081 disconnected.
+1692980991: Client mqtt_subscriber closed its connection.
+1692980995: New connection from 172.31.0.1:56095 on port 1883.
+1692980995: New client connected from 172.31.0.1:56095 as mqtt_subscriber (p2, c1, k60).
+1692981012: Client mqtt_subscriber closed its connection.
+1692981077: New connection from 172.31.0.1:55321 on port 1883.
+1692981077: New client connected from 172.31.0.1:55321 as mqtt_subscriber (p2, c1, k60).
+1692981080: Client mqtt_subscriber closed its connection.
+1692981210: New connection from 172.31.0.1:39659 on port 1883.
+1692981210: New client connected from 172.31.0.1:39659 as mqtt_subscriber (p2, c1, k60).
+1692981211: Client mqtt_subscriber closed its connection.
+1692981243: New connection from 172.31.0.1:39453 on port 1883.
+1692981243: New client connected from 172.31.0.1:39453 as mqtt_subscriber (p2, c1, k60).
+1692981249: Client mqtt_subscriber closed its connection.
+1692981299: New connection from 172.31.0.1:44731 on port 1883.
+1692981299: New client connected from 172.31.0.1:44731 as mqtt_subscriber (p2, c1, k60).
+1692981304: Client mqtt_subscriber closed its connection.
+1692981320: New connection from 172.31.0.1:48631 on port 1883.
+1692981320: New client connected from 172.31.0.1:48631 as mqtt_subscriber (p2, c1, k60).
+1692981336: Client mqtt_subscriber closed its connection.
+1692981429: New connection from 172.31.0.1:51191 on port 1883.
+1692981429: New client connected from 172.31.0.1:51191 as mqtt_subscriber (p2, c1, k60).
+1692981438: Client mqtt_subscriber closed its connection.
+1692981449: New connection from 172.31.0.1:34355 on port 1883.
+1692981449: New client connected from 172.31.0.1:34355 as mqtt_subscriber (p2, c1, k60).
+1692981500: Client mqtt_subscriber closed its connection.
+1692981503: New connection from 172.31.0.1:50251 on port 1883.
+1692981503: New client connected from 172.31.0.1:50251 as mqtt_subscriber (p2, c1, k60).
+1692981512: Client mqtt_subscriber closed its connection.
+1692981540: New connection from 172.31.0.1:39989 on port 1883.
+1692981540: New client connected from 172.31.0.1:39989 as mqtt_subscriber (p2, c1, k60).
+1692981550: Client mqtt_subscriber closed its connection.
+1692981589: New connection from 172.31.0.1:39611 on port 1883.
+1692981589: New client connected from 172.31.0.1:39611 as mqtt_subscriber (p2, c1, k60).
+1692981597: Client mqtt_subscriber closed its connection.
+1692981627: New connection from 172.31.0.1:36985 on port 1883.
+1692981627: New client connected from 172.31.0.1:36985 as mqtt_subscriber (p2, c1, k60).
+1692981631: Client mqtt_subscriber closed its connection.
+1692981646: New connection from 172.31.0.1:54661 on port 1883.
+1692981646: New client connected from 172.31.0.1:54661 as mqtt_subscriber (p2, c1, k60).
+1692981663: Client mqtt_subscriber closed its connection.
+1692981901: Client sensor_simulator closed its connection.
+1692981908: New connection from 172.31.0.1:33156 on port 1883.
+1692981908: New client connected from 172.31.0.1:33156 as sensor_simulator (p2, c1, k60).
+1692981909: New connection from 172.31.0.1:33170 on port 1883.
+1692981909: New client connected from 172.31.0.1:33170 as mqtt_subscriber (p2, c1, k60).
+1692982074: mosquitto version 2.0.17 terminating
+1692982415: mosquitto version 2.0.17 starting
+1692982415: Config loaded from /mosquitto/config/mosquitto.conf.
+1692982415: Opening ipv4 listen socket on port 1883.
+1692982415: Opening ipv6 listen socket on port 1883.
+1692982415: mosquitto version 2.0.17 running
+1692982416: New connection from 172.31.0.1:60298 on port 1883.
+1692982416: New connection from 172.31.0.1:60312 on port 1883.
+1692982416: New client connected from 172.31.0.1:60298 as sensor_simulator (p2, c1, k60).
+1692982416: New client connected from 172.31.0.1:60312 as mqtt_subscriber (p2, c1, k60).
+1692989244: mosquitto version 2.0.17 terminating
+1693000935: mosquitto version 2.0.17 starting
+1693000935: Config loaded from /mosquitto/config/mosquitto.conf.
+1693000935: Opening ipv4 listen socket on port 1883.
+1693000935: Opening ipv6 listen socket on port 1883.
+1693000935: mosquitto version 2.0.17 running
+1693000935: New connection from 192.168.0.1:38488 on port 1883.
+1693000935: New connection from 192.168.0.1:38500 on port 1883.
+1693000935: New client connected from 192.168.0.1:38488 as sensor_simulator (p2, c1, k60).
+1693000935: New client connected from 192.168.0.1:38500 as mqtt_subscriber (p2, c1, k60).
+1693001232: mosquitto version 2.0.17 terminating
+1693001256: mosquitto version 2.0.17 starting
+1693001256: Config loaded from /mosquitto/config/mosquitto.conf.
+1693001256: Opening ipv4 listen socket on port 1883.
+1693001256: Opening ipv6 listen socket on port 1883.
+1693001256: mosquitto version 2.0.17 running
+1693001256: New connection from 192.168.0.1:53438 on port 1883.
+1693001256: New client connected from 192.168.0.1:53438 as mqtt_subscriber (p2, c1, k60).
+1693001257: New connection from 192.168.0.1:53448 on port 1883.
+1693001257: New client connected from 192.168.0.1:53448 as sensor_simulator (p2, c1, k60).
+1693001424: mosquitto version 2.0.17 terminating
+1693001547: mosquitto version 2.0.17 starting
+1693001547: Config loaded from /mosquitto/config/mosquitto.conf.
+1693001547: Opening ipv4 listen socket on port 1883.
+1693001547: Opening ipv6 listen socket on port 1883.
+1693001547: mosquitto version 2.0.17 running
+1693001548: New connection from 192.168.16.1:60020 on port 1883.
+1693001548: New connection from 192.168.16.1:60034 on port 1883.
+1693001548: New client connected from 192.168.16.1:60034 as mqtt_subscriber (p2, c1, k60).
+1693001548: New client connected from 192.168.16.1:60020 as sensor_simulator (p2, c1, k60).
+1693001550: mosquitto version 2.0.17 terminating
+1693001589: mosquitto version 2.0.17 starting
+1693001589: Config loaded from /mosquitto/config/mosquitto.conf.
+1693001589: Opening ipv4 listen socket on port 1883.
+1693001589: Opening ipv6 listen socket on port 1883.
+1693001589: mosquitto version 2.0.17 running
+1693001590: New connection from 192.168.16.3:49763 on port 1883.
+1693001590: New client connected from 192.168.16.3:49763 as mqtt_subscriber (p2, c1, k60).
+1693001590: New connection from 192.168.16.6:52797 on port 1883.
+1693001590: New client connected from 192.168.16.6:52797 as sensor_simulator (p2, c1, k60).
+1693001675: mosquitto version 2.0.17 terminating
+1693001749: mosquitto version 2.0.17 starting
+1693001749: Config loaded from /mosquitto/config/mosquitto.conf.
+1693001749: Opening ipv4 listen socket on port 1883.
+1693001749: Opening ipv6 listen socket on port 1883.
+1693001749: mosquitto version 2.0.17 running
+1693001749: New connection from 192.168.16.5:52855 on port 1883.
+1693001749: New client connected from 192.168.16.5:52855 as sensor_simulator (p2, c1, k60).
+1693001749: New connection from 192.168.16.7:42883 on port 1883.
+1693001749: New client connected from 192.168.16.7:42883 as mqtt_subscriber (p2, c1, k60).
+1693002009: mosquitto version 2.0.17 terminating
+1693002297: mosquitto version 2.0.17 starting
+1693002297: Config loaded from /mosquitto/config/mosquitto.conf.
+1693002297: Opening ipv4 listen socket on port 1883.
+1693002297: Opening ipv6 listen socket on port 1883.
+1693002297: mosquitto version 2.0.17 running
+1693002297: New connection from 192.168.32.6:33041 on port 1883.
+1693002297: New client connected from 192.168.32.6:33041 as sensor_simulator (p2, c1, k60).
+1693002298: New connection from 192.168.32.2:44487 on port 1883.
+1693002298: New client connected from 192.168.32.2:44487 as mqtt_subscriber (p2, c1, k60).
+1693002332: mosquitto version 2.0.17 terminating
+1693002376: mosquitto version 2.0.17 starting
+1693002376: Config loaded from /mosquitto/config/mosquitto.conf.
+1693002376: Opening ipv4 listen socket on port 1883.
+1693002376: Opening ipv6 listen socket on port 1883.
+1693002376: mosquitto version 2.0.17 running
+1693002376: New connection from 192.168.32.2:36313 on port 1883.
+1693002376: New client connected from 192.168.32.2:36313 as sensor_simulator (p2, c1, k60).
+1693002376: New connection from 192.168.32.3:52383 on port 1883.
+1693002376: New client connected from 192.168.32.3:52383 as mqtt_subscriber (p2, c1, k60).
+1693002454: mosquitto version 2.0.17 terminating
+1693007598: mosquitto version 2.0.17 starting
+1693007598: Config loaded from /mosquitto/config/mosquitto.conf.
+1693007598: Opening ipv4 listen socket on port 1883.
+1693007598: Opening ipv6 listen socket on port 1883.
+1693007598: mosquitto version 2.0.17 running
+1693007598: New connection from 192.168.32.3:51557 on port 1883.
+1693007598: New client connected from 192.168.32.3:51557 as sensor_simulator (p2, c1, k60).
+1693007598: New connection from 192.168.32.7:53801 on port 1883.
+1693007598: New client connected from 192.168.32.7:53801 as mqtt_subscriber (p2, c1, k60).
+1693008341: mosquitto version 2.0.17 terminating
+1693009967: mosquitto version 2.0.17 starting
+1693009967: Config loaded from /mosquitto/config/mosquitto.conf.
+1693009967: Opening ipv4 listen socket on port 1883.
+1693009967: Opening ipv6 listen socket on port 1883.
+1693009967: mosquitto version 2.0.17 running
+1693009967: New connection from 192.168.32.2:45373 on port 1883.
+1693009967: New client connected from 192.168.32.2:45373 as mqtt_subscriber (p2, c1, k60).
+1693009969: New connection from 192.168.32.3:48059 on port 1883.
+1693009969: New client connected from 192.168.32.3:48059 as sensor_simulator (p2, c1, k60).
+1693010110: mosquitto version 2.0.17 terminating
+1693010208: mosquitto version 2.0.17 starting
+1693010208: Config loaded from /mosquitto/config/mosquitto.conf.
+1693010208: Opening ipv4 listen socket on port 1883.
+1693010208: Opening ipv6 listen socket on port 1883.
+1693010208: mosquitto version 2.0.17 running
+1693010208: New connection from 192.168.32.3:57819 on port 1883.
+1693010208: New client connected from 192.168.32.3:57819 as mqtt_subscriber (p2, c1, k60).
+1693010208: New connection from 192.168.32.2:57411 on port 1883.
+1693010208: New client connected from 192.168.32.2:57411 as sensor_simulator (p2, c1, k60).
+1693010359: mosquitto version 2.0.17 terminating
+1693010392: mosquitto version 2.0.17 starting
+1693010392: Config loaded from /mosquitto/config/mosquitto.conf.
+1693010392: Opening ipv4 listen socket on port 1883.
+1693010392: Opening ipv6 listen socket on port 1883.
+1693010392: mosquitto version 2.0.17 running
+1693010392: New connection from 192.168.32.5:34931 on port 1883.
+1693010392: New client connected from 192.168.32.5:34931 as sensor_simulator (p2, c1, k60).
+1693010393: New connection from 192.168.32.7:45417 on port 1883.
+1693010393: New client connected from 192.168.32.7:45417 as mqtt_subscriber (p2, c1, k60).
+1693010862: mosquitto version 2.0.17 terminating
+1693011265: mosquitto version 2.0.17 starting
+1693011265: Config loaded from /mosquitto/config/mosquitto.conf.
+1693011265: Opening ipv4 listen socket on port 1883.
+1693011265: Opening ipv6 listen socket on port 1883.
+1693011265: mosquitto version 2.0.17 running
+1693011265: New connection from 192.168.48.3:47507 on port 1883.
+1693011265: New client connected from 192.168.48.3:47507 as mqtt_subscriber (p2, c1, k60).
+1693011266: New connection from 192.168.48.7:45013 on port 1883.
+1693011266: New client connected from 192.168.48.7:45013 as sensor_simulator (p2, c1, k60).
+1693011323: mosquitto version 2.0.17 terminating
+1693011479: mosquitto version 2.0.17 starting
+1693011479: Config loaded from /mosquitto/config/mosquitto.conf.
+1693011479: Opening ipv4 listen socket on port 1883.
+1693011479: Opening ipv6 listen socket on port 1883.
+1693011479: mosquitto version 2.0.17 running
+1693011479: New connection from 192.168.64.4:49359 on port 1883.
+1693011479: New client connected from 192.168.64.4:49359 as sensor_simulator (p2, c1, k60).
+1693011479: New connection from 192.168.64.6:37741 on port 1883.
+1693011479: New client connected from 192.168.64.6:37741 as mqtt_subscriber (p2, c1, k60).
+1693011599: mosquitto version 2.0.17 terminating
+1693026045: mosquitto version 2.0.17 starting
+1693026045: Config loaded from /mosquitto/config/mosquitto.conf.
+1693026045: Opening ipv4 listen socket on port 1883.
+1693026045: Opening ipv6 listen socket on port 1883.
+1693026045: mosquitto version 2.0.17 running
+1693026045: New connection from 192.168.96.7:56287 on port 1883.
+1693026045: New client connected from 192.168.96.7:56287 as sensor_simulator (p2, c1, k60).
+1693026045: New connection from 192.168.96.2:37831 on port 1883.
+1693026045: New client connected from 192.168.96.2:37831 as mqtt_subscriber (p2, c1, k60).
+1693026284: mosquitto version 2.0.17 terminating
