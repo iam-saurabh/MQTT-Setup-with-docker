@@ -7,7 +7,7 @@ services:
     container_name: mqtt_publisher
     tty: true
     restart: unless-stopped
-     volumes:
+    volumes:
       - ./MQTTPublisher:/code
   mqtt-broker:
     image: eclipse-mosquitto
