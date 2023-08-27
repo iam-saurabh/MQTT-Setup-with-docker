@@ -66,4 +66,4 @@ def latestTenBySensorID(sensor_id: str):
     return {"latestTenBySensorID":latestData}
 # main function running uvicorn server at 0.0.0.0:8000 of container.
 if __name__ == "__main__":
-    uvicorn.run(api, host="0.0.0.0", port=8000)
+    uvicorn.run(api, host="fastapi", port=8000)
