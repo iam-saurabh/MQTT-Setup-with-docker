@@ -1,4 +1,5 @@
-# Exalense-task
+# Exalens Coding Challenge
+
 **Challenge Overview:**
 
 - **Purpose**: Simulate the behaviour of sensors, monitor their readings, and provide APIs to retrieve data based on specific criteria.
@@ -56,7 +57,6 @@ Two sensors are emulated ‘humidity_sensor’ and ‘temperature_sensor ’, th
 #Dockerfile for publisher
 FROM python:3.8-alpine
 WORKDIR /code
-COPY MQTTPublisher/publisher.py .
 COPY MQTTPublisher/requirement.txt .
 RUN pip install -r requirement.txt
 CMD ["python","publisher.py"]
@@ -64,7 +64,6 @@ CMD ["python","publisher.py"]
 
 ```bash
 # docker-compose.yml
-version: '3.9'
 services:
   publisher:
     build:
@@ -73,6 +72,8 @@ services:
     container_name: mqtt_publisher
     tty: true
     restart: unless-stopped
+    volumes:
+      - ./MQTTPublisher:/code
 ```
 
 python:3.8-alpine from docker-hub is a small image good for a single task with fewer requirements.
@@ -128,7 +129,9 @@ subscriber:
       dockerfile: DockerFiles/subscriber.Dockerfile
     container_name: mqtt_subscriber
     tty: true
-    restart: unless-stopped   
+    restart: unless-stopped
+    volumes:
+      - ./MQTTSubscriber:/code
   db:
     image:  mongo
     container_name: mongodb
@@ -159,15 +162,17 @@ fastapi:
     container_name: fastapi
     tty: true
     restart: unless-stopped
+    volumes:
+      - ./FastApiEndpoint:/code
     ports:
-      - 80:8000   # port 8000 of the container is forwarded at port 80 of localhost
+      - 80:8000
   redis:
     image: redis
     tty: true
     container_name: redis
     restart: unless-stopped
     ports:
-      - 6379:6379
+      - 6379:637
 ```
 
 ```bash
