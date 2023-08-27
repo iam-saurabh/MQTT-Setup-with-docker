@@ -1,4 +1,4 @@
-from mongoengine import Document, StringField, IntField, DateTimeField
+from mongoengine import Document, StringField, IntField
 
 # schema of our Database
 class Sensor_readings(Document):
