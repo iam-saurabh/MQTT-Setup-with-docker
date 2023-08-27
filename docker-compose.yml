@@ -7,6 +7,8 @@ services:
     container_name: mqtt_publisher
     tty: true
     restart: unless-stopped
+     volumes:
+      - ./MQTTPublisher:/code
   mqtt-broker:
     image: eclipse-mosquitto
     container_name: mqtt_broker
@@ -23,7 +25,9 @@ services:
       dockerfile: DockerFiles/subscriber.Dockerfile
     container_name: mqtt_subscriber
     tty: true
-    restart: unless-stopped   
+    restart: unless-stopped
+    volumes:
+      - ./MQTTSubscriber:/code
   db:
     image:  mongo
     container_name: mongodb
@@ -40,6 +44,8 @@ services:
     container_name: fastapi
     tty: true
     restart: unless-stopped
+    volumes:
+      - ./FastApiEndpoint:/code
     ports:
       - 80:8000
   redis:
