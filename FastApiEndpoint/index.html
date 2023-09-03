@@ -1,0 +1,781 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>MQTT-Setup-with-docker</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7ee59716-b34e-4161-8daa-62fefc0396d0" class="page sans"><header><h1 class="page-title"><a href="https://github.com/iam-saurabh/MQTT-Setup-with-docker/tree/main"><strong>MQTT-Setup-with-docker</strong></a></h1><p class="page-description"></p></header><div class="page-body"><h2 id="cab2ab1f-c1dc-40ec-b49e-978e8697b854" class="">Setup for Debian-Linux</h2><p id="f5791a29-6e9b-42ec-8c94-bdde980323e6" class="">Install docker and docker compose plugins.</p><pre id="b803ed9d-7d1c-473c-b9db-755e90d5b09a" class="code"><code>#apt list update
+$ sudo apt-get update
+# Install Docker 
+$ sudo apt-get install docker.io
+# Install Docker Compose
+$ sudo apt-get install docker-compose-plugin
+# check installation
+$ docker compose version
+</code></pre><h2 id="a7f9ced3-b675-40b8-a5b3-81ae2f54db8d" class="">Quick Giude</h2><pre id="08932078-feee-4a4e-ad97-e297525e7759" class="code code-wrap"><code>docker compose up
+
+# Endpoints
+0.0.0.0/ # Implementation documentation.
+/startoenddate # range of dates
+/latestten # latest ten entry
+/latestten/{sensor_id} #latest ten entry by sensor_id
+0.0.0.0/docs #can be used for endpoint testing.</code></pre><h2 id="80282c72-f5f8-4b79-8b69-6d3e627010d8" class="">MQTT Publisher</h2><p id="2074a7b5-543f-4a02-a313-a1075f99ffa6" class="">Using ‘paho.mqtt’ python library to connect to the ‘mqtt-broker’ and publish the desired payload</p><p id="40bfce53-4d85-4435-a6be-d6fe1c8aa8d6" class="">Two sensors are emulated ‘humidity_sensor’ and ‘temperature_sensor ’, the python script keeps running until a keyboard interrupt is detected, with the help of the docker file build container which works as a publisher for a broker.</p><div id="2cec5246-42d3-4f0c-9cac-ff20aec2330f" class="column-list"><div id="52a4464a-fb6b-4afc-84b4-1769c16b2a58" style="width:50%" class="column"><pre id="f1a47bd8-f0f9-445d-8fae-91dac993aa15" class="code"><code>#Dockerfile for publisher
+FROM python:3.8-alpine
+WORKDIR /code
+COPY MQTTPublisher/requirement.txt .
+RUN pip install -r requirement.txt
+CMD [&quot;python&quot;,&quot;publisher.py&quot;]</code></pre></div><div id="7d30cac3-bd14-4e58-aa30-18e43cdb39c9" style="width:50%" class="column"><pre id="425ece22-e4c0-4fff-91c1-227f18e93a2d" class="code code-wrap"><code># docker-compose.yml
+services:
+  publisher:
+    build:
+      context: .
+      dockerfile: DockerFiles/publisher.Dockerfile
+    container_name: mqtt_publisher
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./MQTTPublisher:/code</code></pre></div></div><p id="50851162-c96c-4e75-8c5e-b0f524949f27" class="">python:3.8-alpine from docker-hub is a small image good for a single task with fewer requirements.</p><h2 id="1d04a789-17cc-4363-9bc9-7c98107afbc5" class="">MQTT Broker</h2><p id="12bf0985-6123-4510-89e0-dcb3dd3cb7d9" class="">Using docker official image ‘eclipse-mosquitto’ at default port 1883 is mapped with port 1883 of localhost.</p><p id="57fa354b-f92d-4626-ad45-a91126f8ac5b" class="">volumes for config and logs are created and configured in the docker-compose.yml file</p><p id="e2bc3b4e-a2d9-44a2-a56c-a9ef37bc8d04" class="">Note: To connect within the docker network container name can be used </p><pre id="f4e9a6a7-d924-41b2-8ad6-23e3e6f8e253" class="code"><code>#example 
+broker_address = &quot;mqtt_broker&quot;  # Instead of any IP or localhost containr name is used.
+broker_port = 1883</code></pre><pre id="18142df7-317f-40bf-b21d-430d46fe0ebe" class="code"><code>#compose file
+mqtt-broker:
+    image: eclipse-mosquitto
+    container_name: mqtt_broker
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./config:/mosquitto/config # local path and container path 
+      - ./log:/mosquitto/log
+    ports:
+      - 1883:1883 # local port to container port</code></pre><h2 id="e0cc55d6-2584-4db9-80c4-ce765db91e21" class="">MQTT Subscriber / DataBase</h2><p id="88198f7e-805a-4f92-8909-4cead5727b04" class="">Like in the publisher case we Use ‘paho.mqtt’ python library to connect to the ‘mqtt-broker’ and subscribe to the desired topic</p><p id="24ac4426-bcc3-451d-a361-36b586c450a8" class="">Two topics are subscribed ‘humidity_sensor’ and ‘temperature_sensor ’, the python script keeps running until a keyboard interrupt is detected, with the help of the docker file build container which works as a subscriber for the broker.</p><p id="b425b5ea-81d3-4ea9-9cde-95627ccfb963" class="">The subscriber in this case also stores the received message into the MongoDB which is running in a container that is created by using docker official image Mongo, deployed at the default port, here we can also pass the container name for docker intra-net connections.</p><div id="1b88db31-86f6-4849-99b0-2eac42a68e11" class="column-list"><div id="a9a77444-7a1d-44aa-a4d0-225288186cb4" style="width:50%" class="column"><pre id="7ed501f7-f409-44fd-9cf2-5a20b0c55850" class="code"><code># example to connect to MOngoDB
+uri = &quot;mongodb://mongodb:27017/&quot;
+db_name = &quot;sensor_data&quot;
+collection_name = &quot;sensor_readings&quot;</code></pre></div><div id="12cd2ae7-ea4c-4406-bd7f-2edabaea6a56" style="width:50%" class="column"><pre id="a3ca0b00-27a7-4cae-ad29-d7d2d99992db" class="code code-wrap"><code># Docker compose file for subscriber and DB
+subscriber:
+    build:
+      context: .
+      dockerfile: DockerFiles/subscriber.Dockerfile
+    container_name: mqtt_subscriber
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./MQTTSubscriber:/code
+  db:
+    image:  mongo
+    container_name: mongodb
+    tty: true
+    restart: unless-stopped 
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/data/db</code></pre><p id="d13d2e4a-a621-4353-88f6-651aa3c142a9" class="">
+</p></div></div><p id="f62727e5-9091-413a-b17d-0ee473d3663f" class="">To make data persistent i.e. data cannot be deleted after removal of the container then /data/db of the container is connected with ./data on a local machine by using volumes. </p><h2 id="f7516d76-2f94-49a8-9ac1-fcd166cf4c36" class="">FastAPI / Redis</h2><p id="6a0627a5-4dc2-45d0-a98d-a5f8e165cd54" class="">Endpoints created and are cached using the Redis server which is deployed as container by using the docker official image  ‘redis’</p><p id="4bf93242-a569-4497-a98d-b7a9f6c2ee77" class="">FastAPI is running on uvicorn server on port 8000 but to showcase how we can map the port of the container to any available port of the local network.</p><p id="1b396bb0-e2b6-4989-9621-a43824ad3adc" class=""> </p><pre id="7e161154-c296-4dc8-9726-a5d70c75fa27" class="code code-wrap"><code># Docker composer for redis and FastAPI
+fastapi:
+    build:
+      context: .
+      dockerfile: DockerFiles/fastapi.Dockerfile
+    container_name: fastapi
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ./FastApiEndpoint:/code
+    ports:
+      - 80:8000
+  redis:
+    image: redis
+    tty: true
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - 6379:637</code></pre><pre id="36b254e6-22da-4ab2-a033-59c54d7e576f" class="code code-wrap"><code># Endpoints
+/starttoenddate  #&quot;http://0.0.0.0/starttoenddate&quot; can be querryied by putting startdate
+
+# and enddate 
+#exmple  &quot;http://0.0.0.0/startoenddate?startDate=2023-08-25T22%3A25%3A02.819517&amp;endDate=2023-08-25T23%3A53%3A33.850691&quot;
+
+/latestten # This endpoint gives the latest ten readings from all the sensors, this endpoint is cached with Redis server, and the key expiry time is set to 10 sec.
+
+/latestten/{sensor_id} # a string containing sensor_id is passed to the latest ten entries of a specific sensor, this endpoint is also cached with Redis.
+
+/allData # fetches all data stored in DB and is also cashed with redis with an expiry of 30 sec.
+ 0.0.0.0/ # Implementation documentation.
+
+0.0.0.0/docs #can be used for endpoint testing.</code></pre><h2 id="3e0f8d9b-d71c-4b94-948f-59c6d1b9c683" class="">Some Important Commands</h2><pre id="a29394d6-8ab8-43ff-b82b-1631cc5d2a03" class="code code-wrap"><code>docker compose up # in same directory as docker-compose.yml
+# you can start a specific service by using its name in compose file
+docker compose up db # it will only start or build only DB
+ctrl+c # used for stopping running containers 
+docker compose down  # stop and remove containers
+docker compose build # to rebuild or build container after change.
+docker rm $(docker ps -aq) # removing all containers
+docker image rm $(docker images) # removing all Images
+
+</code></pre><h2 id="1562eaf1-ba49-4f09-b04c-71fa0cb3f0e6" class=""></h2><p id="9440c527-e38b-47db-ba78-002e8f09bee0" class="">
+</p></div></article></body></html>
