@@ -186,10 +186,3 @@ docker image rm $(docker images) # removing all Images
 
 ```
 
-## Challenges Faced
-
-During the occurrence of any error in containers, they tend to just exit and I have to start them again like when the MQTT-Broker container was not started and the other containers that were dependent upon it just gave that it couldn't connect to the broker exit after adding ‘restart: ’ it helped and restarts the container.
-
-Not able to look at the error log at the terminal itself then tty: True helped a lot it kept the terminal running container and kept popping their messages.
-
-During Mosquitto config it gave some error because of not using volumes correctly but after some time it sorted out.
