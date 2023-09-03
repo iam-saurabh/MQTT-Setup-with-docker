@@ -1,23 +1,3 @@
-# Exalens Coding Challenge
-
-**Challenge Overview:**
-
-- **Purpose**: Simulate the behaviour of sensors, monitor their readings, and provide APIs to retrieve data based on specific criteria.
-1. **MQTT Broker Setup**: Deploy a Mosquitto MQTT broker using Docker.
-2. **MQTT Publisher**: Create a Python MQTT client to mimic multiple sensor readings, publishing to topics like sensors/temperature and sensors/humidity.
-    1. 
-        
-        Structure of the JSON payload
-        
-        - `{ "sensor_id": "unique_sensor_id", "value": "<reading_value>", "timestamp": "ISO8601_formatted_date_time" }`:
-3. **MQTT Subscriber**: Construct a Python MQTT subscriber to store the received messages in a MongoDB collection.
-4. **Data Storage**: Initiate a MongoDB instance using Docker and save the incoming MQTT messages.
-5. **In-Memory Data Management**: Implement Redis using Docker to store the latest ten sensor readings.
-6. **FastAPI Endpoint**: Design an API with the following endpoints:
-    - An endpoint that allows users to fetch sensor readings by specifying a start and end range.
-    - An endpoint to retrieve the last ten sensor readings for a specific sensor.
-7. **Docker Integration**: Integrate all services using Docker Compose.
-
 ## Setup for Debian-Linux
 
 Install docker and docker compose plugins.
